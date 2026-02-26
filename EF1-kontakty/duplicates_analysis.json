@@ -1,0 +1,1060 @@
+{
+  "phone_duplicates": [
+    {
+      "phone": "725385415",
+      "contacts": [
+        {
+          "id": "rec6YFXQ5cFrM5iC6",
+          "jmeno": "Kateřina",
+          "prijmeni": "Pelouchová",
+          "email": "katerina.pelouchova@previo.cz",
+          "telefon": "725385415",
+          "firma": "Previo s.r.o.",
+          "pozice": "",
+          "programy": [
+            "ACA 2024"
+          ],
+          "klienti": [
+            "recN6a0IhMpX5cmGn"
+          ]
+        },
+        {
+          "id": "recZwMZ8A5Y0pAhuk",
+          "jmeno": "Kateřina",
+          "prijmeni": "Pelouchová",
+          "email": "katerina.pelouchova@gmail.com",
+          "telefon": "725385415",
+          "firma": "Previo s.r.o.",
+          "pozice": "",
+          "programy": [
+            "AILM - podzim 2024"
+          ],
+          "klienti": [
+            "recN6a0IhMpX5cmGn"
+          ]
+        }
+      ]
+    },
+    {
+      "phone": "604300222",
+      "contacts": [
+        {
+          "id": "rec7jsJdSfgY9C4Vz",
+          "jmeno": "Petra",
+          "prijmeni": "Ungrová",
+          "email": "petra.ungrova@accurata.cz",
+          "telefon": "604300222",
+          "firma": "accurata.cz s.r.o.",
+          "pozice": "Vedení účetnictví",
+          "programy": [
+            "FAIL - podzim 2025"
+          ],
+          "klienti": [
+            "recHAkjD8Mu7vDAQB"
+          ]
+        },
+        {
+          "id": "recD7JmNuxBQgilxf",
+          "jmeno": "Petra",
+          "prijmeni": "Divišová",
+          "email": "petra.divisova@accurata.cz",
+          "telefon": "604300222",
+          "firma": "Divišová",
+          "pozice": "vlastník s.r.o. - účetní",
+          "programy": [
+            "DLM 1-6 (2021-2023)"
+          ],
+          "klienti": [
+            "reclinLr3hEje0n34"
+          ]
+        }
+      ]
+    },
+    {
+      "phone": "777666564",
+      "contacts": [
+        {
+          "id": "recE5G99tPAUR0H7e",
+          "jmeno": "Lukáš",
+          "prijmeni": "Těžký",
+          "email": "lukas@lukastezky.cz",
+          "telefon": "777666564",
+          "firma": "Lukáš Těžký",
+          "pozice": "Freelancer",
+          "programy": [
+            "DLM 7 - jaro 2024"
+          ],
+          "klienti": [
+            "recUFXpYBnXgMv513"
+          ]
+        },
+        {
+          "id": "recH2aKa0VWL92Mz0",
+          "jmeno": "Lukáš",
+          "prijmeni": "Těžký",
+          "email": "tezkylukas@gmail.com",
+          "telefon": "+420777666564",
+          "firma": "Lukáš Těžký",
+          "pozice": "",
+          "programy": [
+            "FAIL - jaro 2025"
+          ],
+          "klienti": [
+            "recUFXpYBnXgMv513"
+          ]
+        }
+      ]
+    },
+    {
+      "phone": "606033039",
+      "contacts": [
+        {
+          "id": "recEZlwPhFx9fe8H5",
+          "jmeno": "Šárka",
+          "prijmeni": "Vanková",
+          "email": "sarka.vankova@conceptline.cz",
+          "telefon": "+420 606 033 039",
+          "firma": "Conceptline",
+          "pozice": "",
+          "programy": [],
+          "klienti": [
+            "recbLvXttTcOvbHvD"
+          ]
+        },
+        {
+          "id": "recX3OAd7tn1mQR7U",
+          "jmeno": "Veronika",
+          "prijmeni": "Szalay",
+          "email": "veronika.szalay@conceptline.cz",
+          "telefon": "'+420 606 033 039",
+          "firma": "Conceptline",
+          "pozice": "",
+          "programy": [],
+          "klienti": [
+            "recbLvXttTcOvbHvD"
+          ]
+        }
+      ]
+    },
+    {
+      "phone": "602261136",
+      "contacts": [
+        {
+          "id": "recNUma853Fjrxn9p",
+          "jmeno": "Erika",
+          "prijmeni": "Vorlova",
+          "email": "vorlova.erik@gmail.com",
+          "telefon": "602261136",
+          "firma": "",
+          "pozice": "",
+          "programy": [
+            "AILM - podzim 2024"
+          ],
+          "klienti": []
+        },
+        {
+          "id": "recYlXvylC93eGtcd",
+          "jmeno": "Erika",
+          "prijmeni": "Vorlová",
+          "email": "erikavorlova@yahoo.com",
+          "telefon": "602261136",
+          "firma": "",
+          "pozice": "",
+          "programy": [
+            "FAIL - jaro 2025"
+          ],
+          "klienti": []
+        }
+      ]
+    },
+    {
+      "phone": "725130923",
+      "contacts": [
+        {
+          "id": "recP7xPZFHM5Jnusk",
+          "jmeno": "Jakub",
+          "prijmeni": "Heikenwalder",
+          "email": "jakub.heikenwalder@digitask.cz",
+          "telefon": "725130923",
+          "firma": "Digitask",
+          "pozice": "",
+          "programy": [
+            "AILM - podzim 2024"
+          ],
+          "klienti": [
+            "rectPFsDUFiAb3N2C"
+          ]
+        },
+        {
+          "id": "recWFnXMO7dGciyY7",
+          "jmeno": "Jakub",
+          "prijmeni": "Heikenwälder",
+          "email": "jakub.heikenwalder@uniqa.cz",
+          "telefon": "725130923",
+          "firma": "UNIQA",
+          "pozice": "People Strategist",
+          "programy": [
+            "DLM 1-6 (2021-2023)"
+          ],
+          "klienti": [
+            "recc5VxMKiZ2qe5MK"
+          ]
+        },
+        {
+          "id": "recbNVbKjoVbua9Vn",
+          "jmeno": "Jakub",
+          "prijmeni": "Heikenwälder",
+          "email": "heikenwalder@gmail.com",
+          "telefon": "725130923",
+          "firma": "Digitask",
+          "pozice": "",
+          "programy": [
+            "ACA 2024"
+          ],
+          "klienti": [
+            "rectPFsDUFiAb3N2C"
+          ]
+        }
+      ]
+    },
+    {
+      "phone": "702020020",
+      "contacts": [
+        {
+          "id": "recRiA3lqBzdM4meM",
+          "jmeno": "Žaneta",
+          "prijmeni": "Pavlíčková",
+          "email": "zaneta.pavlickova@digitask.cz",
+          "telefon": "702020020",
+          "firma": "Digitask",
+          "pozice": "",
+          "programy": [
+            "AILM - podzim 2024"
+          ],
+          "klienti": [
+            "rectPFsDUFiAb3N2C"
+          ]
+        },
+        {
+          "id": "recSkhvCxvtPnGPdX",
+          "jmeno": "Žaneta",
+          "prijmeni": "Pavlíčková",
+          "email": "zaneta.pavlickova@aibility.cz",
+          "telefon": "702020020",
+          "firma": "",
+          "pozice": "",
+          "programy": [
+            "FAIL - jaro 2025"
+          ],
+          "klienti": []
+        }
+      ]
+    }
+  ],
+  "domain_issues": [
+    {
+      "domain": "cz.bosch.com",
+      "companies": [
+        "Robert Bosch, spol. s r.o.",
+        "Robert Bosch odbytová",
+        "Bosch",
+        "Robert Bosch spol. spol. s. r. o."
+      ],
+      "contact_ids": [
+        "rec07e4vit5tofsWL",
+        "rec83KUcFUvATaEy4",
+        "recGqVoV8cIqoYgmU",
+        "recH8VN1OgTEEnLAV",
+        "recTJ9vEuBDv7QVdo"
+      ]
+    },
+    {
+      "domain": "kb.cz",
+      "companies": [
+        "Komerční banka; Komerční banka a.s.",
+        "Komerční banka",
+        "Komercni banka",
+        "Komerční banka, a.s."
+      ],
+      "contact_ids": [
+        "rec0Gx1GILschvxU7",
+        "rec0S7SBXs4Ld3fa0",
+        "rec1Hb09NM1Sl7b3x",
+        "recDZeR1nQJna0G1m",
+        "recIfDkX43rDTdgfz",
+        "recPdzlnN61mJXeL4",
+        "recTgsX8WnpnM4Rsf",
+        "recTtoTKrcvq9sNax",
+        "recbZzJDyJbXClqV3"
+      ]
+    },
+    {
+      "domain": "t-mobile.cz",
+      "companies": [
+        "T-Mobile Czech Republic,a.s.",
+        "T-Mobile Czech republic, a.s.",
+        "T-mobile CZ",
+        "T-Mobile Czech Republic a.s.",
+        "T - Mobile CR a.s.",
+        "T-Mobile CZ",
+        "T-Mobile",
+        "T-Mobile Czech Republic",
+        "T-mobile Czech Republic a.s."
+      ],
+      "contact_ids": [
+        "rec0R977RrHpcDByc",
+        "rec2KeY2PCaESmmVF",
+        "rec4MWpEgQl2P3nKO",
+        "rec4lTzlsMjoglt06",
+        "rec5hn51DDyMY5Yzb",
+        "recB1h7JxroKCbw0W",
+        "recGe51Hilh6WfvNi",
+        "recJqIJT5TukHg2gS",
+        "recLmajukmTf0c0WL",
+        "recMWv0lpArnuiLsT",
+        "recNTt2eksNwEmD5r",
+        "recPpJfaJOlO1FkiR",
+        "recQSCb8Us4E82jtr",
+        "recZBn4bQkv9uqCaR",
+        "recbeH98ZVBmKudHa"
+      ]
+    },
+    {
+      "domain": "ans.cz",
+      "companies": [
+        "ŘLP ČR, s.p.",
+        "Řízení letového provozu ČR, s.p."
+      ],
+      "contact_ids": [
+        "rec0WVo1GzD8xEPXe",
+        "recG4oi1vpm0upz4p"
+      ]
+    },
+    {
+      "domain": "microsoft.com",
+      "companies": [
+        "Microsoft s.r.o.",
+        "Microsoft"
+      ],
+      "contact_ids": [
+        "rec0aKO03G3VTi7AM",
+        "recR9LQgENyGDXUNU"
+      ]
+    },
+    {
+      "domain": "digivia.cz",
+      "companies": [
+        "digivia",
+        "digivia (Sdružení VIA , z.ú.)"
+      ],
+      "contact_ids": [
+        "rec0kadVpnpHDJUWD",
+        "rec2BJWeYfbIJmPPo"
+      ]
+    },
+    {
+      "domain": "aero.cz",
+      "companies": [
+        "Aero Vodochody AEROSPACE, a.s.",
+        "Aero Vodochody Aerospace a.s."
+      ],
+      "contact_ids": [
+        "rec0u6r3wDivI9ZDO",
+        "recHWkH2dBLM5qoYC"
+      ]
+    },
+    {
+      "domain": "csas.cz",
+      "companies": [
+        "Česka spořitelna, a.s.",
+        "Česká spořitelna; Česká spořitelna, a.s.",
+        "Česká Spořitelna; Česká spořitelna, a.s.",
+        "Česká spořitelna, a. s.",
+        "Česká spořitelna",
+        "Česká spořitelna a.s.",
+        "Česká spořitelna, a.s.",
+        "Česká Spořitelna",
+        "Ceska sporitelna"
+      ],
+      "contact_ids": [
+        "rec1391yJWi3NRD3S",
+        "rec3TGfu7YnPZ6plY",
+        "rec3ovhlKd6RtvMfP",
+        "rec8buZdtgox6WerY",
+        "rec8r5sxjhL7fIeYK",
+        "recBdqd9AdUX7j5bq",
+        "recCZQtvGYNH3ue3k",
+        "recD1aHniazz75gyE",
+        "recEILvA8HV2AsXx3",
+        "recEdx2uIMGkr2nVY",
+        "recEuO4BJwbzjwnrt",
+        "recFqR63PE9DWtOK2",
+        "recHPyjHwNByUEw0t",
+        "recHkI0ZpQRECcgqY",
+        "recJSSyCPesTxrglx",
+        "recNJtVJqXyOKAABh",
+        "recT95ViIU9wjsJh2",
+        "recUzhOYS1pXoCr64",
+        "recYcLbMGtKkTKvQa",
+        "recZ0nr6ZDyh53Z2d",
+        "recZpy9E4n4kf0SBH"
+      ]
+    },
+    {
+      "domain": "orange.com",
+      "companies": [
+        "Orange Slovensko, a.s.",
+        "Orange"
+      ],
+      "contact_ids": [
+        "rec1U0mEJT2gfOLHt",
+        "rec2JPRnjQpPWrt8j",
+        "rec40kDklmVFbWIAT",
+        "rec6yLThoZqrDy7SH",
+        "rec8khbWXfGl45SXo",
+        "recGkP3AVzgMemDHH",
+        "recHGRkd52r1Y2NuD"
+      ]
+    },
+    {
+      "domain": "soprecr.cz",
+      "companies": [
+        "SOPRE CR o.p.s. Chrudim",
+        "SOPRE CR o.p.s."
+      ],
+      "contact_ids": [
+        "rec1ibp1P6S1obo8S",
+        "recR3Or44R0RqmKCM"
+      ]
+    },
+    {
+      "domain": "lego.com",
+      "companies": [
+        "LEGO Production s.r.o.",
+        "LEGO Production s.r.o"
+      ],
+      "contact_ids": [
+        "rec1rm8cwiKg0Cbpg",
+        "recMtv9YNBnnx91T2"
+      ]
+    },
+    {
+      "domain": "cz.gudel.com",
+      "companies": [
+        "GÜDEL a.s.",
+        "Güdel a.s."
+      ],
+      "contact_ids": [
+        "rec1srbJWtd4dmBui",
+        "recIR2SNiINIudojk"
+      ]
+    },
+    {
+      "domain": "cez.cz",
+      "companies": [
+        "ČEZ",
+        "ČEZ ESCO, a.s.",
+        "ČEZ, a.s.",
+        "TYP Agency s.r.o.; ČEZ, a.s.",
+        "ČEZ Prodej, a.s."
+      ],
+      "contact_ids": [
+        "rec1woEUofVios94V",
+        "rec3LnQdaxtpREYif",
+        "rec3t0ssOcbsRDiC7",
+        "rec6vMRm5hicOa2VD",
+        "recDFFqCqRI0MIU80",
+        "recDfN5ORfxB2TCFt",
+        "recGGg4kMIYyT3gel",
+        "recGJ1W2GWMf2Vr9p",
+        "recIJfABIBP2poZqp",
+        "recJsfgeiMmjLdZqr",
+        "recUUrmw7bsq7WIhE",
+        "recVVEqd04vYShaHW",
+        "recYk3IugG6yEN2qV",
+        "recYmiuJlz5rWoeJv"
+      ]
+    },
+    {
+      "domain": "rb.cz",
+      "companies": [
+        "Raiffeisenbank a. s.",
+        "Raiffeisenbank",
+        "Raiffeisenbank a.s."
+      ],
+      "contact_ids": [
+        "rec216hh8VyK2Ibhz",
+        "rec6CUtYCC40DvOKL",
+        "rec6FQwZFbyUHUKlC",
+        "recBh2VStnJinRJrd",
+        "recCj0mSzuxo3az8a",
+        "recY9xmp15Wnu9l8x"
+      ]
+    },
+    {
+      "domain": "generaliceska.cz",
+      "companies": [
+        "Generali Česká pojišťovna a.s.",
+        "Generali Česká",
+        "Generali Česká pojišťovna"
+      ],
+      "contact_ids": [
+        "rec2YxeWxiiNqyyVB",
+        "rec8W7gW30FHrbQf6",
+        "recH3ENUtfrQR6fyo",
+        "recMohnqie00bB0IL"
+      ]
+    },
+    {
+      "domain": "epace.cz",
+      "companies": [
+        "ePace s.r.o.",
+        "ePace"
+      ],
+      "contact_ids": [
+        "rec2Z5c9qHyOJkGqb",
+        "recMYukywSXb7BEjd"
+      ]
+    },
+    {
+      "domain": "airbank.cz",
+      "companies": [
+        "Air Bank",
+        "Air Bank; AirBank"
+      ],
+      "contact_ids": [
+        "rec2i44bQGS5KCYbQ",
+        "rec2oVbOtUBTrjxU2",
+        "recB9ijWeHMe3Ynrz",
+        "recBkmsEFfvGsdOY5",
+        "recHJ6mjH1ETozbUL",
+        "recPiPOAiKF6Bu4KC",
+        "recTz8666p09MwUcP",
+        "recUYMu7beQKXzLke",
+        "recUb50145qI4JY6s",
+        "recX0HZa3qn25IjLQ",
+        "recZVlm6DDebD22ep"
+      ]
+    },
+    {
+      "domain": "saint-gobain.com",
+      "companies": [
+        "Saint-Gobain Construction Products CZ a.s.",
+        "SAINT-GOBAIN ADFORS CZ  s.r.o"
+      ],
+      "contact_ids": [
+        "rec30YY8Z91XIiTip",
+        "recR06wDQ2cZ9zX4Y",
+        "recb7HoN7pCF9sou5"
+      ]
+    },
+    {
+      "domain": "gasnet.cz",
+      "companies": [
+        "GasNet; GasNet, s.r.o.",
+        "Gasnet s.r.o.",
+        "Gasnet",
+        "GasNet s.r.o.",
+        "GasNet",
+        "GasNet, s.r.o."
+      ],
+      "contact_ids": [
+        "rec31khWP6cLWsgS4",
+        "rec6etCj1iERjR6Y2",
+        "recMciy0OoFrRKc9n",
+        "recPvExRpg155R2Dr",
+        "recQT3MN7JKOocNXk",
+        "recRXoSePt1KXnxor",
+        "recUqFvAXzCiRKcQj"
+      ]
+    },
+    {
+      "domain": "growjob.com",
+      "companies": [
+        "GrowJOB s.r.o.",
+        "GrowJOB Institute"
+      ],
+      "contact_ids": [
+        "rec3nZAlzYw6BIz7s",
+        "recVTkcTEObbRrHTq"
+      ]
+    },
+    {
+      "domain": "homecredit.cz",
+      "companies": [
+        "Home Credit",
+        "Home Credit a.s."
+      ],
+      "contact_ids": [
+        "rec4aXvKCMo43spKk",
+        "recBnKAKF7mUnuZ6M",
+        "recMSCst7Jr093OIa"
+      ]
+    },
+    {
+      "domain": "skanska.cz",
+      "companies": [
+        "Skanska",
+        "Skanska Reality"
+      ],
+      "contact_ids": [
+        "rec59VEWl8atrQYB7",
+        "recAvi5xCBxqPV3iD",
+        "recYPbLlnd3XWu2OP"
+      ]
+    },
+    {
+      "domain": "koop.cz",
+      "companies": [
+        "Kooperativa pojišťovna, a. s. VIG",
+        "Kooperativa pojišťovna, a.s., Vienna Insurance Group",
+        "Kooperativa",
+        "Kooperativa pojišťovna, a. s., VIG"
+      ],
+      "contact_ids": [
+        "rec5A08JNAODiBY29",
+        "recPBYBUYeLDWCftG",
+        "recUlYbWqC9q140H0",
+        "reca0qpyYdODSNn7v"
+      ]
+    },
+    {
+      "domain": "csob.cz",
+      "companies": [
+        "ČSOB, a.s.",
+        "Československá obchodní banka, a. s.",
+        "ČSOB"
+      ],
+      "contact_ids": [
+        "rec5QAR68lX5c9eCw",
+        "rec82JYLDslFTo98M",
+        "recGgwG7TpnFiFR2y",
+        "recZTUnLRbpFcJxZE"
+      ]
+    },
+    {
+      "domain": "globalpayments.cz",
+      "companies": [
+        "Global Payments",
+        "Global Payments s.r.o."
+      ],
+      "contact_ids": [
+        "rec5dgiFONRNHEP6S",
+        "recGIJZ8kk9pYVUFP"
+      ]
+    },
+    {
+      "domain": "thermoking.com",
+      "companies": [
+        "Trane Technologies",
+        "Thermo King Manufacturing s.r.o."
+      ],
+      "contact_ids": [
+        "rec5wU3XrtzeYAfhW",
+        "recT9tsDuhJsQ6KlH"
+      ]
+    },
+    {
+      "domain": "elinkx.cz",
+      "companies": [
+        "E LINKX a.s.,",
+        "E LINKX",
+        "E LINKX a.s."
+      ],
+      "contact_ids": [
+        "rec6DLN1fGnJUmXqe",
+        "recRoLnSlalnInDwL",
+        "recVnHPUsarkirh0r"
+      ]
+    },
+    {
+      "domain": "homecredit.eu",
+      "companies": [
+        "HomeCredit International",
+        "Home Credit International a.s.",
+        "Home Credit International",
+        "Home Credit N.V., odštěpný závod"
+      ],
+      "contact_ids": [
+        "rec71uM835P1InkJT",
+        "rec845mFbc4kEgrC4",
+        "recD9m3QAx5fhV2T7",
+        "recEm8Ct6UEI7wnJH",
+        "recPuZPhXHxWMIJux"
+      ]
+    },
+    {
+      "domain": "protonmail.com",
+      "companies": [
+        "Lakara Ltd",
+        "Charlie Capital, LLC",
+        "Charlie Capital (Charlie Gaming, Charlie DeFi)"
+      ],
+      "contact_ids": [
+        "rec7Bykd32tvoy11S",
+        "recCMGhEAehUxj3RL",
+        "recHzkxPZUcgLPhdu",
+        "recPyLGTYKbL1v4Fo"
+      ]
+    },
+    {
+      "domain": "amundi.com",
+      "companies": [
+        "Amundi Czech republic Asset Management",
+        "Amundi"
+      ],
+      "contact_ids": [
+        "rec7SaUFLcnWQEHzX",
+        "recJk7TjZJRzT40xU"
+      ]
+    },
+    {
+      "domain": "accurata.cz",
+      "companies": [
+        "accurata.cz s.r.o.",
+        "Divišová"
+      ],
+      "contact_ids": [
+        "rec7jsJdSfgY9C4Vz",
+        "recD7JmNuxBQgilxf"
+      ]
+    },
+    {
+      "domain": "mondigroup.com",
+      "companies": [
+        "Mondi Coating Štětí",
+        "Mondi Štětí"
+      ],
+      "contact_ids": [
+        "rec98AF4a2uIh3Fgk",
+        "recYJKEPftyHo2WmG"
+      ]
+    },
+    {
+      "domain": "cz.abb.com",
+      "companies": [
+        "ABB s.r.o.",
+        "ABB s.r.o. div.Group Reprezentative Office",
+        "ABB"
+      ],
+      "contact_ids": [
+        "rec9ZRYftAZbjswpU",
+        "recBZl3Id1j05XIeK",
+        "recPpHT11v958xVrR",
+        "recZUKVdkKPqnlEjY"
+      ]
+    },
+    {
+      "domain": "edsystem.cz",
+      "companies": [
+        "eD group / eD system",
+        "eD system, a.s.",
+        "eD system a.s."
+      ],
+      "contact_ids": [
+        "recAIgRfnbgkHHren",
+        "recIttY4OvMqaKscV",
+        "recR5Ae2nedtcO9ku"
+      ]
+    },
+    {
+      "domain": "generali.com",
+      "companies": [
+        "generali",
+        "Generali"
+      ],
+      "contact_ids": [
+        "recB7dGupEsQECvsd",
+        "recBDfR5auhzqAbjy"
+      ]
+    },
+    {
+      "domain": "dns.cz",
+      "companies": [
+        "DNS a.s.",
+        "DNS, a. s.; DNS, a.s."
+      ],
+      "contact_ids": [
+        "recBKvi32Al5sME2z",
+        "recN14UDjw2tu5eG9"
+      ]
+    },
+    {
+      "domain": "scania.com",
+      "companies": [
+        "Scania; Scania Czech Republic s.r.o.",
+        "Scania Czech Republic s.r.o."
+      ],
+      "contact_ids": [
+        "recBXcbzhs9oK9Hud",
+        "recQLgDyimqHMa0xC"
+      ]
+    },
+    {
+      "domain": "digitask.cz",
+      "companies": [
+        "Digitask s.r.o.",
+        "Digitask"
+      ],
+      "contact_ids": [
+        "recBmYBvu66wrF6So",
+        "recIfwnSpbdeN0me8",
+        "recP7xPZFHM5Jnusk",
+        "recRiA3lqBzdM4meM"
+      ]
+    },
+    {
+      "domain": "telekom.sk",
+      "companies": [
+        "Slovak Telekom a.s.",
+        "Slovak Telekom, a.s."
+      ],
+      "contact_ids": [
+        "recCaJ0KOrVZR9OZO",
+        "recEsqknhACxieIcg"
+      ]
+    },
+    {
+      "domain": "hornbach.com",
+      "companies": [
+        "Hornbach Baumarkt CS spol. s r.o.",
+        "HORNBACH BAUMARKT CS spol. s r.o."
+      ],
+      "contact_ids": [
+        "recCe3mlEhpEf3ZRk",
+        "recW570lL3ObZypjT"
+      ]
+    },
+    {
+      "domain": "asahibeer.cz",
+      "companies": [
+        "Plzeňský Prazdroj, a. s.; Plzeňský Prazdroj, a.s.",
+        "Plzeňský Prazdroj, a. s.",
+        "Asahi (Plzeňský Prazdroj)",
+        "Plzeňský Prazdroj / Asahi"
+      ],
+      "contact_ids": [
+        "recCmfHP6ZPsGl8K7",
+        "recOS8XxT99xDf7Iq",
+        "recW8vUP9VpCYoC6l",
+        "recYtx69I8rSwRGfS"
+      ]
+    },
+    {
+      "domain": "datasys.cz",
+      "companies": [
+        "DATASYS s.r.o.",
+        "Datasys"
+      ],
+      "contact_ids": [
+        "recDsvPHpc4tYZDFn",
+        "recHd27DiiD69LGYi"
+      ]
+    },
+    {
+      "domain": "scio.cz",
+      "companies": [
+        "Scio",
+        "www.scio.cz, s.r.o."
+      ],
+      "contact_ids": [
+        "recDuVdDc9TRbpMzC",
+        "recUBTo2edsezgTtl"
+      ]
+    },
+    {
+      "domain": "innogy.cz",
+      "companies": [
+        "innogy Energie, s.r.o.",
+        "innogy Zákaznické služby, s.r.o.",
+        "Innogy"
+      ],
+      "contact_ids": [
+        "recELqu0KZusyQmnJ",
+        "recP1erlVUpEbEH8O",
+        "recZafANJ1y8htF0V"
+      ]
+    },
+    {
+      "domain": "cchellenic.com",
+      "companies": [
+        "Coca-Cola HBC Česko a Slovensko",
+        "Coca-Cola HBC Česko a Slovensko, s.r.o."
+      ],
+      "contact_ids": [
+        "recEjGY80JnmBC3nc",
+        "recT5XGdMQPICFFEO"
+      ]
+    },
+    {
+      "domain": "edwardsvacuum.com",
+      "companies": [
+        "Edwards s.r.o",
+        "Edwards, s.r.o."
+      ],
+      "contact_ids": [
+        "recEyBTN44fORYyGl",
+        "recRTq8IrHGi14PFp"
+      ]
+    },
+    {
+      "domain": "cleverfarm.ag",
+      "companies": [
+        "CleverFarm",
+        "CleverFarm, a.s."
+      ],
+      "contact_ids": [
+        "recGGXKQnEuGk1mlr",
+        "recQdcpUfam5YEDne"
+      ]
+    },
+    {
+      "domain": "ghh-bonatrans.com",
+      "companies": [
+        "BONATRANS Group, a.s.",
+        "BONATRANS GROUP a.s."
+      ],
+      "contact_ids": [
+        "recHBgDNHUN97XF8M",
+        "recJbYxw2M27TFRpy",
+        "reca5tqdS6utEPj5w"
+      ]
+    },
+    {
+      "domain": "sgef.cz",
+      "companies": [
+        "SGEF",
+        "SG Equipment Finance Czech Republic s.r.o. (SGEF)"
+      ],
+      "contact_ids": [
+        "recI2mL08ctMBfTmD",
+        "recYz0uhrLfa6pWju"
+      ]
+    },
+    {
+      "domain": "uniqa.cz",
+      "companies": [
+        "UNIQA Management Services, s.r.o.",
+        "UNIQA pojišťovna, a.s.",
+        "UNIQA"
+      ],
+      "contact_ids": [
+        "recK6C3ALLxyCRS6w",
+        "recMmXhHqEjbxBlMz",
+        "recWFnXMO7dGciyY7"
+      ]
+    },
+    {
+      "domain": "respect.cz",
+      "companies": [
+        "Respect",
+        "RESPECT, a.s."
+      ],
+      "contact_ids": [
+        "recKh8UcwpV4RJWR9",
+        "recPvUvpCbSoEPjDm"
+      ]
+    },
+    {
+      "domain": "skoda-auto.cz",
+      "companies": [
+        "ŠKODA AUTO",
+        "Škoda Auto a.s.",
+        "Škoda Auto"
+      ],
+      "contact_ids": [
+        "recKqHy8O9xbYONdE",
+        "recMe6vLeGSxtOYud",
+        "recTQJiBcM2WkMnWG"
+      ]
+    },
+    {
+      "domain": "billigence.com",
+      "companies": [
+        "Billigence",
+        "Billigence PTY"
+      ],
+      "contact_ids": [
+        "recM17a92qQYO0zES",
+        "recMQKBP1jGoYxLzz"
+      ]
+    },
+    {
+      "domain": "redbuttonedu.cz",
+      "companies": [
+        "RB Associates s.r.o. (Red Button); Red Button EDU",
+        "RB Associates s.r.o."
+      ],
+      "contact_ids": [
+        "recPrn6qiO1QWQi0E",
+        "recXqkblt0EBSNxGn"
+      ]
+    },
+    {
+      "domain": "uniwise.cz",
+      "companies": [
+        "Uniwise s.r.o.",
+        "Uniwise, s.r.o."
+      ],
+      "contact_ids": [
+        "recRV6dfrRnAu3BS8",
+        "recYkY1YoW55Vs2lB"
+      ]
+    },
+    {
+      "domain": "industrypartners.eu",
+      "companies": [
+        "CEIP II Advisor s.r.o.",
+        "CEIP, private equity fond"
+      ],
+      "contact_ids": [
+        "recSdpRGr2T1Vbhqs",
+        "recZOj9jBlNP3CejA"
+      ]
+    },
+    {
+      "domain": "sonnentor.cz",
+      "companies": [
+        "SONNENTOR s.r.o.",
+        "Sonnentor"
+      ],
+      "contact_ids": [
+        "recSxy5J3u3CFMLYC",
+        "recTznJIBENyjTKIt"
+      ]
+    },
+    {
+      "domain": "positivafuturo.com.br",
+      "companies": [
+        "Positiva Futuro (Brazílie)",
+        "Positiva Futuro Brazil"
+      ],
+      "contact_ids": [
+        "recT3AjFam4crLL2x",
+        "recZT7H6xyAwl1aQc"
+      ]
+    },
+    {
+      "domain": "siemens.com",
+      "companies": [
+        "Siemens",
+        "Siemens s.r.o., Slovensko"
+      ],
+      "contact_ids": [
+        "recWzUJDnSKv4PjhE",
+        "recYHyDfmUHLzI8Di"
+      ]
+    },
+    {
+      "domain": "bunzlcee.com",
+      "companies": [
+        "Bunzl CS s.r.o.",
+        "Bunzl CS"
+      ],
+      "contact_ids": [
+        "recZhkYoHdHIb03B4",
+        "recbQ7DTCqsPPEymD"
+      ]
+    }
+  ]
+}

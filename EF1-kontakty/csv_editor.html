@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Editor - Kontakty</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .toolbar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        button:hover {
+            background: #357ae8;
+        }
+        
+        button.secondary {
+            background: #34a853;
+        }
+        
+        button.secondary:hover {
+            background: #2d8f47;
+        }
+        
+        input[type="file"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .status {
+            padding: 10px;
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .status.error {
+            background: #ffebee;
+            border-left-color: #f44336;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            max-height: 75vh;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 2000px;
+        }
+        
+        /* Make cells wrap text for better visibility */
+        td {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+            overflow: visible;
+        }
+        
+        thead {
+            position: sticky;
+            top: 0;
+            background: #f8f9fa;
+            z-index: 10;
+        }
+        
+        th {
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            background: #f8f9fa;
+            font-size: 14px;
+            min-width: 120px;
+        }
+        
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+        
+        /* Column widths for better visibility */
+        td:nth-child(1), th:nth-child(1) { min-width: 50px; max-width: 50px; } /* # */
+        td:nth-child(2), th:nth-child(2) { min-width: 120px; } /* Jméno */
+        td:nth-child(3), th:nth-child(3) { min-width: 120px; } /* Příjmení */
+        td:nth-child(4), th:nth-child(4) { min-width: 200px; } /* Email */
+        td:nth-child(5), th:nth-child(5) { min-width: 100px; } /* Oslovení */
+        td:nth-child(6), th:nth-child(6) { min-width: 120px; } /* Telefon */
+        td:nth-child(7), th:nth-child(7) { min-width: 250px; } /* LinkedIn */
+        td:nth-child(8), th:nth-child(8) { min-width: 180px; } /* Pozice */
+        td:nth-child(9), th:nth-child(9) { min-width: 200px; } /* Firma */
+        td:nth-child(10), th:nth-child(10) { min-width: 300px; } /* Účastnil se */
+        td:nth-child(11), th:nth-child(11) { min-width: 200px; } /* HR kontakt */
+        td:nth-child(12), th:nth-child(12) { min-width: 100px; } /* Stav */
+        
+        textarea.cell-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: inherit;
+            min-height: 20px;
+            box-sizing: border-box;
+            white-space: pre-wrap;
+            overflow: auto;
+            resize: vertical;
+        }
+        
+        textarea.cell-input:focus {
+            outline: none;
+            border-color: #4285f4;
+            box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+            background: #f8f9ff;
+            position: relative;
+            z-index: 100;
+        }
+        
+        /* Tooltip for full content */
+        td {
+            position: relative;
+        }
+        
+        td:hover::after {
+            content: attr(data-full-text);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-width: 500px;
+            z-index: 1000;
+            font-size: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            display: block;
+            margin-top: 4px;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .row-number {
+            width: 50px;
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 CSV Editor - Kontakty</h1>
+        
+        <div class="toolbar">
+            <select id="fileSelect" onchange="loadSelectedFile()" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; min-width: 200px;">
+                <option value="kontakty_unified.csv">Kontakty (unified)</option>
+                <option value="kontakty_poptavky.csv">Kontakty (poptávky)</option>
+                <option value="deals_poptavky.csv">Deals (poptávky)</option>
+                <option value="deals_complete.csv">Deals (complete)</option>
+                <option value="poptavky_deals_filtered.csv">Poptávky (filtered)</option>
+            </select>
+            <input type="file" id="fileInput" accept=".csv" />
+            <button onclick="loadDefaultFile(false, true)">🔄 Obnovit z CSV</button>
+            <button class="secondary" onclick="saveCSV()">💾 Uložit CSV</button>
+            <button onclick="exportToGoogleSheets()">📤 Exportovat do Google Sheets</button>
+            <label style="margin-left: 20px; color: #666; font-size: 12px; display:flex; align-items:center; gap:6px;">
+                <input id="autoRefreshToggle" type="checkbox" />
+                Auto‑obnovení (30s)
+            </label>
+        </div>
+        
+        <div id="status" class="status"></div>
+        
+        <div class="table-container">
+            <table id="csvTable">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let csvData = [];
+        let headers = [];
+        let isDirty = false; // true = máš neuložené změny (pozastaví auto-obnovení)
+        let currentFile = 'kontakty_unified.csv';
+        function draftKey() { return 'csv_editor_draft_v1_' + currentFile; }
+        const AUTO_REFRESH_MS = 30000;
+
+        // Allow opening a specific file via URL, e.g. ?file=kontakty_poptavky.csv
+        (function initFileFromQuery() {
+            try {
+                const params = new URLSearchParams(window.location.search);
+                const f = (params.get('file') || '').trim();
+                if (!f) return;
+                currentFile = f;
+                const sel = document.getElementById('fileSelect');
+                if (sel) sel.value = f;
+            } catch (e) {
+                // ignore
+            }
+        })();
+
+        function loadSelectedFile() {
+            if (isDirty && !confirm('Máš neuložené změny. Opravdu chceš načíst jiný soubor?')) {
+                document.getElementById('fileSelect').value = currentFile;
+                return;
+            }
+            currentFile = document.getElementById('fileSelect').value;
+            clearDraft();
+            isDirty = false;
+            loadDefaultFile(false, true);
+        }
+
+        function saveDraft() {
+            try {
+                localStorage.setItem(draftKey(), JSON.stringify({ headers, csvData, ts: Date.now() }));
+            } catch (e) {
+                // ignore
+            }
+        }
+
+        function clearDraft() {
+            try { localStorage.removeItem(draftKey()); } catch (e) {}
+        }
+
+        function loadDraftIfExists() {
+            try {
+                const raw = localStorage.getItem(draftKey());
+                if (!raw) return false;
+                const draft = JSON.parse(raw);
+                if (!draft || !Array.isArray(draft.headers) || !Array.isArray(draft.csvData)) return false;
+                headers = draft.headers;
+                csvData = draft.csvData;
+                renderTable();
+                isDirty = true;
+                showStatus('Obnoven rozpracovaný draft (neuložené změny).', 'error');
+                return true;
+            } catch (e) {
+                return false;
+            }
+        }
+
+        // File input handler
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                readCSV(file);
+            }
+        });
+
+        // Load default file
+        async function loadDefaultFile(silent = false, force = false) {
+            // Pokud má uživatel neuložené změny, nenačítat (jinak by se přepsaly)
+            // force=true používáme jen pro ruční "Obnovit z CSV"
+            if (!force && isDirty) return;
+            try {
+                // Add cache-busting timestamp to force reload
+                const response = await fetch(currentFile + '?t=' + Date.now());
+                if (!response.ok) throw new Error('Soubor nenalezen');
+                const text = await response.text();
+                parseCSV(text);
+                document.querySelector('h1').textContent = '📊 CSV Editor - ' + currentFile;
+                if (!silent) {
+                    showStatus('Soubor načten: ' + currentFile, 'success');
+                }
+            } catch (error) {
+                if (!silent) {
+                    showStatus('Chyba při načítání: ' + error.message + '. Zkuste použít tlačítko "Vybrat soubor" nahoře.', 'error');
+                }
+            }
+        }
+
+        // Read CSV file
+        function readCSV(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                parseCSV(e.target.result);
+                showStatus('Soubor načten: ' + file.name, 'success');
+            };
+            reader.readAsText(file, 'UTF-8');
+        }
+
+        // Parse CSV text (supports newlines inside quoted cells)
+        function parseCSV(text) {
+            const parsed = parseCSVText(text);
+            if (!parsed || parsed.headers.length === 0) return;
+            headers = parsed.headers;
+            csvData = parsed.rows;
+            renderTable();
+            isDirty = false;
+            clearDraft();
+        }
+
+        function parseCSVText(text) {
+            // Normalize newlines
+            text = String(text || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            // Remove UTF-8 BOM if present
+            if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+
+            const rows = [];
+            let row = [];
+            let cell = '';
+            let inQuotes = false;
+
+            for (let i = 0; i < text.length; i++) {
+                const ch = text[i];
+
+                if (ch === '"') {
+                    if (inQuotes && text[i + 1] === '"') {
+                        cell += '"';
+                        i++;
+                    } else {
+                        inQuotes = !inQuotes;
+                    }
+                    continue;
+                }
+
+                if (ch === ',' && !inQuotes) {
+                    row.push(cell);
+                    cell = '';
+                    continue;
+                }
+
+                if (ch === '\n' && !inQuotes) {
+                    row.push(cell);
+                    cell = '';
+                    if (row.some(v => String(v).length > 0)) rows.push(row);
+                    row = [];
+                    continue;
+                }
+
+                cell += ch;
+            }
+
+            // flush last row
+            row.push(cell);
+            if (row.some(v => String(v).length > 0)) rows.push(row);
+
+            if (rows.length === 0) return { headers: [], rows: [] };
+            const headers = rows[0].map(h => String(h));
+            const dataRows = [];
+            for (let r = 1; r < rows.length; r++) {
+                const rr = rows[r].map(v => String(v));
+                while (rr.length < headers.length) rr.push('');
+                if (rr.length > headers.length) rr.length = headers.length;
+                dataRows.push(rr);
+            }
+            return { headers, rows: dataRows };
+        }
+
+        // Render table
+        function renderTable() {
+            const thead = document.getElementById('tableHead');
+            const tbody = document.getElementById('tableBody');
+            
+            // Render header
+            thead.innerHTML = '<tr><th class="row-number">#</th>' + 
+                headers.map(h => `<th>${escapeHtml(h)}</th>`).join('') + '</tr>';
+            
+            // Render body
+            tbody.innerHTML = '';
+            csvData.forEach((row, rowIndex) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td class="row-number">${rowIndex + 1}</td>` +
+                    row.map((cell, colIndex) => {
+                        const cellValue = escapeHtml(cell);
+                        return `<td data-full-text="${escapeHtml(cell)}"><textarea class="cell-input" rows="1"
+                            data-row="${rowIndex}" 
+                            data-col="${colIndex}"
+                            title="${cellValue}"
+                            oninput="updateCell(${rowIndex}, ${colIndex}, this.value)"
+                            onchange="updateCell(${rowIndex}, ${colIndex}, this.value)">${cellValue}</textarea></td>`;
+                    }).join('');
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Update cell value
+        function updateCell(row, col, value) {
+            csvData[row][col] = value;
+            if (!isDirty) {
+                isDirty = true;
+                showStatus('Neuložené změny – auto‑obnovení pozastaveno (klikni „Uložit CSV“).', 'error');
+            }
+            saveDraft();
+        }
+
+        // Escape HTML
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Save CSV
+        function saveCSV() {
+            if (csvData.length === 0) {
+                showStatus('Žádná data k uložení', 'error');
+                return;
+            }
+            
+            // Convert to CSV format
+            let csv = headers.map(h => `"${h.replace(/"/g, '""')}"`).join(',') + '\n';
+            csvData.forEach(row => {
+                csv += row.map(cell => {
+                    const str = String(cell || '').replace(/"/g, '""');
+                    return `"${str}"`;
+                }).join(',') + '\n';
+            });
+
+            // 1) Prefer: save directly via local server (POST /save)
+            fetch('/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ filename: currentFile, csv })
+            })
+            .then(async (res) => {
+                if (!res.ok) throw new Error('Ukládání přes server selhalo');
+                const data = await res.json().catch(() => ({}));
+                if (!data.ok) throw new Error(data.error || 'Ukládání přes server selhalo');
+                isDirty = false;
+                clearDraft();
+                showStatus('Uloženo přímo do ' + currentFile, 'success');
+                // pro jistotu načti z disku znovu (sjednotí formát + ověří, že soubor je opravdu přepsaný)
+                loadDefaultFile(true);
+            })
+            .catch(() => {
+                // 2) Fallback: Download (browser cannot write to disk directly)
+                const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = currentFile;
+                link.click();
+                // necháme isDirty = true, protože změny nejsou zapsané do souboru v projektu
+                showStatus('Server neběží → CSV soubor stažen. Změny nejsou v projektu, dokud nepřepíšeš soubor.', 'error');
+            });
+        }
+
+        // Export to Google Sheets format
+        function exportToGoogleSheets() {
+            if (csvData.length === 0) {
+                showStatus('Žádná data k exportu', 'error');
+                return;
+            }
+            
+            // Convert to TSV (tab-separated) for better Google Sheets compatibility
+            let tsv = headers.join('\t') + '\n';
+            csvData.forEach(row => {
+                tsv += row.map(cell => String(cell || '').replace(/\t/g, ' ')).join('\t') + '\n';
+            });
+            
+            const blob = new Blob([tsv], { type: 'text/tab-separated-values;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'kontakty_unified.tsv';
+            link.click();
+            
+            showStatus('TSV soubor stažen. Nahrajte ho do Google Sheets pomocí Soubor → Importovat → Nahrát → Vybrat soubor', 'success');
+        }
+
+        // Show status message
+        function showStatus(message, type = 'success') {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = 'status ' + (type === 'error' ? 'error' : '');
+            status.style.display = 'block';
+            
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 5000);
+        }
+
+        // Auto-load on page load
+        window.addEventListener('load', function() {
+            // Pokud existuje rozpracovaný draft, obnov ho a nepřepisuj načtením souboru
+            if (!loadDraftIfExists()) {
+                loadDefaultFile();
+            }
+        });
+
+        // Auto-refresh (default OFF)
+        let autoRefreshTimer = null;
+        function setAutoRefreshEnabled(enabled) {
+            if (autoRefreshTimer) {
+                clearInterval(autoRefreshTimer);
+                autoRefreshTimer = null;
+            }
+            if (!enabled) return;
+            autoRefreshTimer = setInterval(function() {
+                if (!isDirty && document.activeElement.tagName !== 'INPUT') {
+                    loadDefaultFile(true);
+                }
+            }, AUTO_REFRESH_MS);
+        }
+
+        const autoToggle = document.getElementById('autoRefreshToggle');
+        autoToggle.checked = false;
+        setAutoRefreshEnabled(false);
+        autoToggle.addEventListener('change', function() {
+            setAutoRefreshEnabled(autoToggle.checked);
+            showStatus(autoToggle.checked ? 'Auto‑obnovení zapnuto' : 'Auto‑obnovení vypnuto', 'success');
+        });
+    </script>
+</body>
+</html>

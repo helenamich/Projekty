@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práce s databází KONTAKTY</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #dbeafe;
+            --success: #16a34a;
+            --success-light: #dcfce7;
+            --warning: #ca8a04;
+            --warning-light: #fef9c3;
+            --danger: #dc2626;
+            --danger-light: #fee2e2;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: var(--gray-50);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--gray-800);
+            border-bottom: 4px solid var(--primary);
+            padding-bottom: 16px;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-top: 48px;
+            margin-bottom: 24px;
+            padding: 12px 16px;
+            background: var(--primary-light);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--gray-600);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: var(--gray-800);
+            color: white;
+            font-weight: 600;
+            text-align: left;
+            padding: 12px 16px;
+        }
+        
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        tr:hover {
+            background: var(--gray-50);
+        }
+        
+        code {
+            background: var(--gray-100);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.9em;
+            color: var(--primary);
+        }
+        
+        pre {
+            background: var(--gray-800);
+            color: #e5e7eb;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        .diagram {
+            background: white;
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        
+        .diagram-box {
+            display: inline-block;
+            padding: 16px 24px;
+            margin: 8px;
+            border-radius: 8px;
+            font-weight: 600;
+            min-width: 140px;
+        }
+        
+        .diagram-box.klienti {
+            background: var(--primary-light);
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .diagram-box.kontakty {
+            background: var(--success-light);
+            border: 2px solid var(--success);
+            color: var(--success);
+        }
+        
+        .diagram-box.deals {
+            background: var(--warning-light);
+            border: 2px solid var(--warning);
+            color: var(--warning);
+        }
+        
+        .diagram-arrow {
+            display: inline-block;
+            font-size: 1.5rem;
+            color: var(--gray-300);
+            margin: 0 8px;
+        }
+        
+        .note {
+            background: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .note.warning {
+            background: var(--warning-light);
+            border-left-color: var(--warning);
+        }
+        
+        .note.danger {
+            background: var(--danger-light);
+            border-left-color: var(--danger);
+        }
+        
+        .note.success {
+            background: var(--success-light);
+            border-left-color: var(--success);
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+        
+        .badge.ok { background: var(--success-light); color: var(--success); }
+        .badge.todo { background: var(--danger-light); color: var(--danger); }
+        .badge.partial { background: var(--warning-light); color: var(--warning); }
+        
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .checklist li {
+            padding: 8px 0 8px 32px;
+            position: relative;
+        }
+        
+        .checklist li::before {
+            content: "☐";
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        .flow-container {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .flow-step {
+            display: flex;
+            align-items: flex-start;
+            margin: 16px 0;
+        }
+        
+        .flow-number {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-right: 16px;
+        }
+        
+        .flow-content {
+            flex: 1;
+            padding-top: 4px;
+        }
+        
+        .flow-arrow {
+            text-align: center;
+            color: var(--gray-300);
+            font-size: 1.5rem;
+            margin: 8px 0 8px 8px;
+        }
+        
+        .decision-tree {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 0.9em;
+            line-height: 1.8;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .toc {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .toc h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        
+        .toc ul {
+            columns: 2;
+            column-gap: 40px;
+        }
+        
+        .toc li {
+            padding: 4px 0;
+        }
+        
+        .toc a {
+            color: var(--gray-600);
+            text-decoration: none;
+        }
+        
+        .toc a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid var(--gray-200);
+            margin: 40px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            color: var(--gray-600);
+            font-size: 0.9em;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--gray-200);
+        }
+        
+        @media print {
+            body { background: white; }
+            h2 { break-before: page; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>📊 Práce s databází KONTAKTY</h1>
+
+<p style="font-size: 1.1em; color: var(--gray-600);">
+    Tento dokument popisuje strukturu databáze kontaktů v Airtable, workflow pro její údržbu a propojení s dalšími nástroji.
+</p>
+
+<div class="toc">
+    <h3>📑 Obsah</h3>
+    <ul>
+        <li><a href="#struktura">1. Struktura databáze</a></li>
+        <li><a href="#pridavani">2. Přidávání nových kontaktů</a></li>
+        <li><a href="#aktualizace">3. Pravidelná aktualizace</a></li>
+        <li><a href="#attio">4. Propojení s Attio</a></li>
+        <li><a href="#ecomail">5. Propojení s Ecomail</a></li>
+        <li><a href="#bounce">6. Správa vrácených emailů</a></li>
+        <li><a href="#klasifikace">7. Klasifikace oddělení</a></li>
+        <li><a href="#osloveni">8. Pravidla pro oslovení</a></li>
+        <li><a href="#checklist">9. Kontrolní checklist</a></li>
+    </ul>
+</div>
+
+<hr>
+
+<h2 id="struktura">1. Struktura databáze</h2>
+
+<p>Databáze se skládá ze <strong>3 propojených tabulek</strong> v Airtable:</p>
+
+<div class="diagram">
+    <div class="diagram-box klienti">🏢 KLIENTI<br><small>(firmy)</small></div>
+    <span class="diagram-arrow">◄──────►</span>
+    <div class="diagram-box kontakty">👤 KONTAKTY<br><small>(osoby)</small></div>
+    <span class="diagram-arrow">◄──────►</span>
+    <div class="diagram-box deals">💼 DEALS<br><small>(poptávky)</small></div>
+</div>
+
+<h3>1.1 Tabulka KLIENTI (firmy)</h3>
+
+<table>
+    <tr><th>Pole</th><th>Typ</th><th>Popis</th></tr>
+    <tr><td><code>Firma</code></td><td>Text</td><td>Název firmy</td></tr>
+    <tr><td><code>Kontakty</code></td><td>Link → Kontakty</td><td>Všechny kontakty z této firmy</td></tr>
+    <tr><td><code>HR Kontakty (linked)</code></td><td>Link → Kontakty</td><td>Automaticky filtrované kontakty s Oddělení = HR</td></tr>
+    <tr><td><code>Deals</code></td><td>Link → Deals</td><td>Poptávky od této firmy</td></tr>
+    <tr><td><code>Deals - přes agenturu</code></td><td>Link → Deals</td><td>Poptávky, kde firma je koncový klient</td></tr>
+    <tr><td><code>Typ klienta</code></td><td>Select</td><td>Kategorie klienta</td></tr>
+    <tr><td><code>Počet zaměstnanců</code></td><td>Select</td><td>Velikost firmy</td></tr>
+    <tr><td><code>Poznámka</code></td><td>Text</td><td>Interní poznámky</td></tr>
+</table>
+
+<h3>1.2 Tabulka KONTAKTY (osoby)</h3>
+
+<table>
+    <tr><th>Pole</th><th>Typ</th><th>Popis</th></tr>
+    <tr><td><code>Kontakt ID</code></td><td>Formula</td><td>Automaticky: "Jméno Příjmení - Firma"</td></tr>
+    <tr><td><code>Jméno</code></td><td>Text</td><td>Křestní jméno</td></tr>
+    <tr><td><code>Příjmení</code></td><td>Text</td><td>Příjmení</td></tr>
+    <tr><td><code>Oslovení</code></td><td>Text</td><td>Jak oslovujeme v emailech (např. "Honzo")</td></tr>
+    <tr><td><code>Primární e-mail</code></td><td>Email</td><td>Hlavní email (preferovaně pracovní)</td></tr>
+    <tr><td><code>Sekundární e-mail</code></td><td>Email</td><td>Záložní email (osobní)</td></tr>
+    <tr><td><code>Telefon</code></td><td>Phone</td><td>Telefonní číslo</td></tr>
+    <tr><td><code>LinkedIn profil</code></td><td>URL</td><td>Odkaz na LinkedIn profil</td></tr>
+    <tr><td><code>Klienti</code></td><td>Link → Klienti</td><td>Firma, kde kontakt pracuje</td></tr>
+    <tr><td><code>Společnost / Firma</code></td><td>Text</td><td>Textový název firmy</td></tr>
+    <tr><td><code>Pracovní pozice</code></td><td>Text</td><td>Aktuální pozice</td></tr>
+    <tr><td><code>Oddělení</code></td><td>Multi-select</td><td>HR / C-level Manager / Owner / IT</td></tr>
+    <tr><td><code>Stav - e-mail</code></td><td>Select</td><td>Aktivní / Chybí - kontaktovat přes Li</td></tr>
+    <tr><td><code>Programy</code></td><td>Multi-select</td><td>Účast v programech (FAIL - jaro 2026...)</td></tr>
+    <tr><td><code>Deals</code></td><td>Link → Deals</td><td>Poptávky, kde je kontaktní osobou</td></tr>
+    <tr><td><code>Aktuální - checked 02/2026</code></td><td>Checkbox</td><td>Označení, že kontakt byl ověřen</td></tr>
+</table>
+
+<h3>1.3 Tabulka DEALS (poptávky)</h3>
+
+<table>
+    <tr><th>Pole</th><th>Typ</th><th>Popis</th></tr>
+    <tr><td><code>Název dealu</code></td><td>Text</td><td>Identifikace poptávky (např. "ČSOB | Školení")</td></tr>
+    <tr><td><code>Klienti</code></td><td>Link → Klienti</td><td>Firma, která poptává</td></tr>
+    <tr><td><code>Kontakt</code></td><td>Link → Kontakty</td><td>Kontaktní osoba</td></tr>
+    <tr><td><code>Co poptávali</code></td><td>Select</td><td>Typ poptávky (Školení, Keynote, Program...)</td></tr>
+    <tr><td><code>Komu určeno</code></td><td>Multi-select</td><td>Kdo z týmu má realizovat</td></tr>
+    <tr><td><code>Reakce / Výsledek</code></td><td>Select</td><td>Stav poptávky</td></tr>
+    <tr><td><code>Koncový klient</code></td><td>Link → Klienti</td><td>Pokud přes agenturu - skutečný klient</td></tr>
+</table>
+
+<hr>
+
+<h2 id="pridavani">2. Přidávání nových kontaktů</h2>
+
+<h3>2.1 Způsob A: Automaticky z emailových poptávek</h3>
+
+<p><strong>Trigger:</strong> Označení emailu štítkem <code>klienti-poptávky</code> v Gmailu</p>
+
+<div class="flow-container">
+    <div class="flow-step">
+        <div class="flow-number">1</div>
+        <div class="flow-content"><strong>Gmail:</strong> Nový email se štítkem "klienti-poptávky"</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">2</div>
+        <div class="flow-content"><strong>AI analýza emailu</strong> - extrakce: Jméno, Email, Telefon, Firma, Pozice, Co poptávají, Detaily</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">3</div>
+        <div class="flow-content"><strong>Airtable:</strong> Vyhledat/vytvořit klienta podle názvu firmy</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">4</div>
+        <div class="flow-content"><strong>Airtable:</strong> Vyhledat/vytvořit kontakt podle emailu</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">5</div>
+        <div class="flow-content"><strong>Airtable:</strong> Vytvořit nový Deal a propojit</div>
+    </div>
+</div>
+
+<div class="note warning">
+    <strong>⚠️ Poznámka:</strong> Tato automatizace zatím není nastavena. Po nastavení bude potřeba ruční kontrola nově vytvořených záznamů.
+</div>
+
+<h3>2.2 Způsob B: Ruční import po programu FAIL</h3>
+
+<ol>
+    <li><strong>Export účastníků</strong> z registračního systému (CSV/Excel)</li>
+    <li><strong>Příprava dat:</strong> Zkontrolovat formát jmen, doplnit oslovení, ověřit emaily</li>
+    <li><strong>Import do Airtable:</strong> Každému kontaktu přiřadit program v poli <code>Programy</code></li>
+    <li><strong>Propojení s klienty:</strong> Pro každý kontakt najít/vytvořit odpovídajícího klienta</li>
+    <li><strong>Doplnění LinkedIn:</strong> Vyhledat a doplnit LinkedIn profily</li>
+</ol>
+
+<hr>
+
+<h2 id="aktualizace">3. Pravidelná aktualizace kontaktů (1× za 2-3 měsíce)</h2>
+
+<h3>3.1 Automatizovaná kontrola přes Cursor AI</h3>
+
+<p><strong>Spuštění:</strong> Otevřít tento projekt v Cursor a zadat příkaz:</p>
+
+<pre>Spusť aktualizaci kontaktů podle workflow.</pre>
+
+<div class="flow-container">
+    <div class="flow-step">
+        <div class="flow-number">1</div>
+        <div class="flow-content"><strong>Stažení kontaktů</strong> s LinkedIn profilem z Airtable</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">2</div>
+        <div class="flow-content"><strong>Scraping LinkedIn</strong> (přes Apify) - kontrola sekce "Experience"</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">3</div>
+        <div class="flow-content"><strong>Identifikace nesrovnalostí:</strong> změna firmy, ukončená pozice, jiná pozice</div>
+    </div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step">
+        <div class="flow-number">4</div>
+        <div class="flow-content"><strong>Výstup:</strong> Seznam kontaktů k ruční kontrole</div>
+    </div>
+</div>
+
+<h3>3.2 Ruční kontrola - při změně firmy</h3>
+
+<ol>
+    <li>Odpojit kontakt od starého klienta</li>
+    <li>Aktualizovat pole "Společnost / Firma"</li>
+    <li>Připojit k novému klientovi (vytvořit pokud neexistuje)</li>
+    <li>Odpojit od dealů starého klienta</li>
+    <li>Zkontrolovat email (viz tabulka níže)</li>
+    <li>Smazat starého klienta, pokud zůstal prázdný</li>
+</ol>
+
+<h3>3.3 Kontrola emailu při změně firmy</h3>
+
+<table>
+    <tr><th>Typ emailu</th><th>Příklad</th><th>Akce</th></tr>
+    <tr><td><strong>Osobní email</strong></td><td>gmail.com, seznam.cz</td><td><span class="badge ok">✅ Ponechat</span></td></tr>
+    <tr><td><strong>Email NOVÉ firmy</strong></td><td>novafirma.cz</td><td><span class="badge ok">✅ Ponechat</span></td></tr>
+    <tr><td><strong>Email STARÉ firmy</strong></td><td>starafirma.cz</td><td><span class="badge todo">❌ Smazat</span> + nastavit "Chybí - kontaktovat přes Li"</td></tr>
+</table>
+
+<hr>
+
+<h2 id="attio">4. Propojení s Attio</h2>
+
+<h3>4.1 Současný stav</h3>
+
+<table>
+    <tr><td><strong>Airtable</strong></td><td>= hlavní (master) databáze</td><td><span class="badge ok">Aktuální</span></td></tr>
+    <tr><td><strong>Attio</strong></td><td>= plánované nasazení pro tým</td><td><span class="badge todo">K nastavení</span></td></tr>
+</table>
+
+<h3>4.2 Plánované nastavení</h3>
+
+<ul>
+    <li><strong>Směr synchronizace:</strong> Airtable → Attio (jednosměrná)</li>
+    <li><strong>Identifikace:</strong> Email (pro kontakty), Název firmy (pro klienty)</li>
+</ul>
+
+<h3>4.3 Čištění Attio od starých kontaktů</h3>
+
+<ol>
+    <li>Export kontaktů z Attio</li>
+    <li>Porovnat s Airtable podle emailu</li>
+    <li>Kontakty pouze v Attio → kandidáti na smazání</li>
+    <li>Ruční kontrola před smazáním</li>
+</ol>
+
+<hr>
+
+<h2 id="ecomail">5. Propojení s Ecomail</h2>
+
+<p>Ecomail slouží pro email marketing. Kontakty se přidávají automaticky s příslušnými štítky.</p>
+
+<table>
+    <tr><th>Produkt/Akce</th><th>Zdroj dat</th><th>Stav</th></tr>
+    <tr><td><strong>FAIL webinář</strong> (zdarma)</td><td>Registrační formulář</td><td><span class="badge ok">✅ Nastaveno</span></td></tr>
+    <tr><td><strong>State of AI</strong> (zdarma)</td><td>Registrační formulář</td><td><span class="badge ok">✅ Nastaveno</span></td></tr>
+    <tr><td><strong>Newsletter</strong></td><td>Registrační formulář</td><td><span class="badge ok">✅ Nastaveno</span></td></tr>
+    <tr><td><strong>Nákup knihy</strong></td><td>Simpleshop</td><td><span class="badge todo">❌ K nastavení</span></td></tr>
+    <tr><td><strong>Nákup AI Predictions</strong></td><td>Simpleshop</td><td><span class="badge todo">❌ K nastavení</span></td></tr>
+</table>
+
+<hr>
+
+<h2 id="bounce">6. Správa vrácených emailů (bounce)</h2>
+
+<h3>6.1 Zdroje informací o bounce</h3>
+<ul>
+    <li><strong>Ecomail</strong> - bounce report po rozesílce</li>
+    <li><strong>Vlastní email</strong> - vrácené emaily při osobní komunikaci</li>
+</ul>
+
+<h3>6.2 Rozhodovací strom</h3>
+
+<div class="decision-tree">
+<pre style="background: white; color: var(--gray-800); margin: 0;">
+Email se vrátil jako nedoručitelný
+            ↓
+    Má kontakt LinkedIn?
+   /                    \
+ ANO                    NE
+  ↓                      ↓
+Zkontrolovat         Má jiný email?
+LinkedIn            /          \
+  ↓               ANO          NE
+Stále pracuje      ↓            ↓
+ve firmě?      Ověřit       <span style="color: var(--danger); font-weight: bold;">SMAZAT</span>
+ /     \       druhý        <span style="color: var(--danger); font-weight: bold;">KONTAKT</span>
+ANO    NE      email
+ ↓      ↓
+Hledat Změnil firmu?
+nový   /    \
+email ANO   NE
+       ↓     ↓
+   Postup  Označit
+   změna   "Chybí -
+   firmy   kontaktovat
+           přes Li"
+</pre>
+</div>
+
+<h3>6.3 Akce podle situace</h3>
+
+<table>
+    <tr><th>Situace</th><th>Akce</th></tr>
+    <tr><td>Má LinkedIn, stále ve firmě</td><td>Pokusit se najít nový email (web firmy, LinkedIn)</td></tr>
+    <tr><td>Má LinkedIn, změnil firmu</td><td>Postup změny firmy, smazat starý email</td></tr>
+    <tr><td>Má LinkedIn, nezaměstnaný</td><td>Smazat email, nastavit "Chybí - kontaktovat přes Li"</td></tr>
+    <tr><td>Nemá LinkedIn, má jiný email</td><td>Ověřit druhý email, použít jako primární</td></tr>
+    <tr><td><strong>Nemá LinkedIn, nemá jiný email</strong></td><td><span class="badge todo">SMAZAT KONTAKT</span></td></tr>
+</table>
+
+<div class="note danger">
+    <strong>⚠️ Po smazání kontaktu:</strong> Zkontrolovat, zda klient (firma) nezůstal prázdný. Pokud ano → <strong>SMAZAT KLIENTA</strong>
+</div>
+
+<hr>
+
+<h2 id="klasifikace">7. Klasifikace oddělení</h2>
+
+<table>
+    <tr><th>Oddělení</th><th>Klíčová slova v pozici</th></tr>
+    <tr><td><strong>HR</strong></td><td>hr, human resource, people, talent, recruiting, personalist, lidské zdroje, nábor, L&D, people & culture</td></tr>
+    <tr><td><strong>C-level Manager</strong></td><td>ceo, cfo, coo, cto, cmo, chief, generální ředitel, finanční ředitel, managing director</td></tr>
+    <tr><td><strong>Owner</strong></td><td>founder, co-founder, owner, zakladatel, majitel, vlastník</td></tr>
+    <tr><td><strong>IT</strong></td><td>developer, software, engineer, programmer, devops, data, architect, vývojář</td></tr>
+</table>
+
+<div class="note">
+    <strong>💡 Tip:</strong> Kontakt může mít více kategorií (např. Owner + C-level). Kontakty s <code>Oddělení = HR</code> se automaticky zobrazují v poli "HR Kontakty" u příslušného klienta.
+</div>
+
+<hr>
+
+<h2 id="osloveni">8. Pravidla pro oslovení</h2>
+
+<table>
+    <tr><th>Jméno</th><th>Oslovení</th></tr>
+    <tr><td>Jakub</td><td>Jakube</td></tr>
+    <tr><td>Ondřej</td><td>Ondro</td></tr>
+    <tr><td>Magdaléna</td><td>Magdi</td></tr>
+    <tr><td>Petr</td><td>Petře</td></tr>
+    <tr><td>Jan</td><td>Honzo</td></tr>
+</table>
+
+<hr>
+
+<h2 id="checklist">9. Kontrolní checklist pro údržbu</h2>
+
+<h3>📅 Týdenně</h3>
+<ul class="checklist">
+    <li>Zpracovat nové poptávky (štítek v Gmailu)</li>
+    <li>Zkontrolovat bounce emaily</li>
+</ul>
+
+<h3>📅 Po každém programu FAIL</h3>
+<ul class="checklist">
+    <li>Importovat nové účastníky</li>
+    <li>Přiřadit program</li>
+    <li>Doplnit LinkedIn profily</li>
+    <li>Propojit s klienty</li>
+</ul>
+
+<h3>📅 Každé 2-3 měsíce</h3>
+<ul class="checklist">
+    <li>Spustit automatizovanou kontrolu LinkedIn</li>
+    <li>Projít seznam nesrovnalostí</li>
+    <li>Aktualizovat změněné kontakty</li>
+    <li>Smazat prázdné klienty</li>
+    <li>Synchronizovat s Attio</li>
+</ul>
+
+<h3>📅 Ročně</h3>
+<ul class="checklist">
+    <li>Celková revize databáze</li>
+    <li>Kontrola duplicit</li>
+    <li>Aktualizace workflow dokumentace</li>
+</ul>
+
+<div class="footer">
+    <p><strong>Práce s databází KONTAKTY</strong><br>
+    Poslední aktualizace: 4. února 2026</p>
+</div>
+
+</body>
+</html>

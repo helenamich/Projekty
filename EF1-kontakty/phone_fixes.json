@@ -1,0 +1,356 @@
+{
+  "apostrophe_plus": [
+    {
+      "id": "rec1Z7O3W4oOyLmh7",
+      "name": "Natália Langfelder",
+      "old": "'+421904507468",
+      "new": "+421904507468"
+    },
+    {
+      "id": "rec7LqY6zOJ0Ou2IO",
+      "name": "Ivo Krejci",
+      "old": "'+420 736 538 795",
+      "new": "+420 736 538 795"
+    },
+    {
+      "id": "recX3OAd7tn1mQR7U",
+      "name": "Veronika Szalay",
+      "old": "'+420 606 033 039",
+      "new": "+420 606 033 039"
+    }
+  ],
+  "double_zero": [
+    {
+      "id": "rec02CTzbD3K46Wa8",
+      "name": "Miroslav Chmelíček",
+      "old": "00420 778 797 984",
+      "new": "+420 778 797 984"
+    },
+    {
+      "id": "rec1srbJWtd4dmBui",
+      "name": "Radek Jašíček",
+      "old": "00420 777 002 123",
+      "new": "+420 777 002 123"
+    },
+    {
+      "id": "rec2TxbONN38tZNTo",
+      "name": "Jaroslav Rybák",
+      "old": "00421 905 620082; 421905620082",
+      "new": "+421 905 620082; 421905620082"
+    },
+    {
+      "id": "rec2dOdWr3SOiQGKB",
+      "name": "Tomáš Pástor",
+      "old": "00421901704643; 421901704643",
+      "new": "+421901704643; 421901704643"
+    },
+    {
+      "id": "rec5IkSGC1CZTZxmp",
+      "name": "Filip Šádek",
+      "old": "00420607637537",
+      "new": "+420607637537"
+    },
+    {
+      "id": "rec65p4BJ2UvZ1DKr",
+      "name": "Kamil Vrkoc",
+      "old": "00420730848339; 420730848339",
+      "new": "+420730848339; 420730848339"
+    },
+    {
+      "id": "rec6FQwZFbyUHUKlC",
+      "name": "Anna Pupalova",
+      "old": "00420725423717",
+      "new": "+420725423717"
+    },
+    {
+      "id": "rec9wpN7HJ64P3zOp",
+      "name": "Jiří Martinec",
+      "old": "00420739242039",
+      "new": "+420739242039"
+    },
+    {
+      "id": "recB1h7JxroKCbw0W",
+      "name": "Jiří Vlasák",
+      "old": "00420720761946",
+      "new": "+420720761946"
+    },
+    {
+      "id": "recBZl3Id1j05XIeK",
+      "name": "Martina Herkusova",
+      "old": "00420706000000",
+      "new": "+420706000000"
+    },
+    {
+      "id": "recEjGY80JnmBC3nc",
+      "name": "Ivica Fetkovičová",
+      "old": "00420704958496",
+      "new": "+420704958496"
+    },
+    {
+      "id": "recGGXKQnEuGk1mlr",
+      "name": "Vojtěch Malina",
+      "old": "00420 797 973 178",
+      "new": "+420 797 973 178"
+    },
+    {
+      "id": "recGqVoV8cIqoYgmU",
+      "name": "Jana Ságlová",
+      "old": "00420731641209",
+      "new": "+420731641209"
+    },
+    {
+      "id": "recHLbODkrsCixB2B",
+      "name": "Ladislav Beran",
+      "old": "00420 773 000 427",
+      "new": "+420 773 000 427"
+    },
+    {
+      "id": "recHPyjHwNByUEw0t",
+      "name": "Pavel Vaněček",
+      "old": "00420602617801",
+      "new": "+420602617801"
+    },
+    {
+      "id": "recIR2SNiINIudojk",
+      "name": "Jiří Černý",
+      "old": "00420 773 714 775",
+      "new": "+420 773 714 775"
+    },
+    {
+      "id": "recJbYxw2M27TFRpy",
+      "name": "Jakub Weimann",
+      "old": "00420724132591",
+      "new": "+420724132591"
+    },
+    {
+      "id": "recJq6GhAWHJQwm5u",
+      "name": "Rudolf Kubíček",
+      "old": "00420606660350",
+      "new": "+420606660350"
+    },
+    {
+      "id": "recMQKBP1jGoYxLzz",
+      "name": "Lenka Hankovcová",
+      "old": "00420 603 885 612",
+      "new": "+420 603 885 612"
+    },
+    {
+      "id": "recOS8XxT99xDf7Iq",
+      "name": "Mia Smatanová",
+      "old": "00420734257821",
+      "new": "+420734257821"
+    },
+    {
+      "id": "recQF346S8jaCft5g",
+      "name": "Michaela Pfeiferová",
+      "old": "00420733626763, 00420734000000",
+      "new": "+420733626763, 00420734000000"
+    },
+    {
+      "id": "recQT3MN7JKOocNXk",
+      "name": "Petr Pěčka",
+      "old": "00420605754687",
+      "new": "+420605754687"
+    },
+    {
+      "id": "recSqYsGVbgecfrWM",
+      "name": "Petr Králik",
+      "old": "00775898186",
+      "new": "+775898186"
+    },
+    {
+      "id": "recTwlZCY3wbTZaXe",
+      "name": "Maria Sebestianova",
+      "old": "00421903229500",
+      "new": "+421903229500"
+    },
+    {
+      "id": "recW3iiCrrYPDZlQF",
+      "name": "Monika Milisderferová",
+      "old": "00420 604 946 117",
+      "new": "+420 604 946 117"
+    },
+    {
+      "id": "recWwQCrCv1SZIAbH",
+      "name": "Marina Andrlíková",
+      "old": "00420602441985",
+      "new": "+420602441985"
+    },
+    {
+      "id": "recXchJjCVc2q6E9V",
+      "name": "Petr Hlavica",
+      "old": "00420608010940",
+      "new": "+420608010940"
+    },
+    {
+      "id": "recXrUitNcKjMBTOu",
+      "name": "Martin Kučera",
+      "old": "00420733699809",
+      "new": "+420733699809"
+    },
+    {
+      "id": "recYHyDfmUHLzI8Di",
+      "name": "Tomáš Froněk",
+      "old": "00420727921204",
+      "new": "+420727921204"
+    },
+    {
+      "id": "recYPbLlnd3XWu2OP",
+      "name": "David Kuchařík",
+      "old": "00420737255577",
+      "new": "+420737255577"
+    },
+    {
+      "id": "recZ2Yhjhg8y1EZYa",
+      "name": "Petr Raiskub",
+      "old": "00420603814944",
+      "new": "+420603814944"
+    },
+    {
+      "id": "recZOj9jBlNP3CejA",
+      "name": "Lucia Lerley",
+      "old": "00420608584435",
+      "new": "+420608584435"
+    },
+    {
+      "id": "recZhkYoHdHIb03B4",
+      "name": "Martin Odvárko",
+      "old": "00420724358741",
+      "new": "+420724358741"
+    },
+    {
+      "id": "reca5tqdS6utEPj5w",
+      "name": "Mateusz Heczko",
+      "old": "00420775877109; 420775877109; 775877109",
+      "new": "+420775877109; 420775877109; 775877109"
+    },
+    {
+      "id": "recaRQwGbOXblBnNS",
+      "name": "Jan Diviš",
+      "old": "00420603318410",
+      "new": "+420603318410"
+    }
+  ],
+  "error": [
+    {
+      "id": "rec0XUrT4KNtmpIaJ",
+      "name": "Miroslav Hutňan",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "rec2HlSlNOdqf9Phy",
+      "name": "Jakub Krahula",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "rec47xRgo69IM0aLy",
+      "name": "Miroslav Martinek",
+      "old": "#ERROR!; 00420 734 264 911; 420731225732"
+    },
+    {
+      "id": "rec5S247cxqFvOZIa",
+      "name": "Monika Truchlikova",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "rec5hn51DDyMY5Yzb",
+      "name": "Jan Vašek",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "rec7P3z71LCEif5mm",
+      "name": "Marcela Zavadilová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "rec8iJcPDVAE6ITZg",
+      "name": "Tomáš Osička",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recBeePz1bkySVOPY",
+      "name": "Peter Ballon",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recC2crYLwLkvczst",
+      "name": "Martin Rolný",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recCMYQU8RYoxsiMz",
+      "name": "Tomáš Ratkovský",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recCgbLI0B4Ion0nl",
+      "name": "Milos Simek",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recEILvA8HV2AsXx3",
+      "name": "Michal Černohorský",
+      "old": "#ERROR!; 775011416"
+    },
+    {
+      "id": "recFQAREDGyMPhEiv",
+      "name": "Denisa Rohunová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recFqR63PE9DWtOK2",
+      "name": "Kateřina Kudynek Kočková",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recK6C3ALLxyCRS6w",
+      "name": "Jakub Mertl",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recKG3gggXU6wktLE",
+      "name": "Michaela Svrčková",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recMEQ7p8LyZJ5Ck1",
+      "name": "Nikoleta Moravcová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recMYukywSXb7BEjd",
+      "name": "Hana Rýdlová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recQiaLCJa8epkafi",
+      "name": "Martin Veverka",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recQqFCEClzvrPgrB",
+      "name": "Viliam Brožek",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recRTq8IrHGi14PFp",
+      "name": "Andrea Korbelová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recRZTNDQ1a7vpIgI",
+      "name": "Ivana Hejdová",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recUdJyqRPSJz2eW1",
+      "name": "Miroslav Řepka",
+      "old": "#ERROR!"
+    },
+    {
+      "id": "recV5ZJPR6jIsKgVR",
+      "name": "Dana Moravova",
+      "old": "#ERROR!"
+    }
+  ]
+}

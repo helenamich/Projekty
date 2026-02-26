@@ -1,0 +1,1496 @@
+📖 Reading /Users/helenamich/Desktop/KONTAKTY EF1 čištění/kontakty_unified.csv...
+
+📊 Kontakty s LinkedIn a bez pozice: 104
+   Pozici doplním jen tam, kde se firma z LinkedIn shoduje s firmou v CSV.
+
+💰 Odhad nákladů: ~1.04 USD (Apify)
+
+🚀 Spouštím aktualizaci (104 kontaktů)...
+
+[1/104] Pamela Babuščáková…
+  Scraping: pamela-babuscakova... [36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:24.219Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:24.222Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:24.262Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:26.288Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:26.529Z Starting item#1 {"url":"https://www.linkedin.com/in/pamela-babuscakova/"}...
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:29.695Z Scraped item#1 {"url":"https://www.linkedin.com/in/pamela-babuscakova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> 2026-02-01T21:58:29.714Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:Py2yvjQNr2zHENLBp][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[2/104] Zuzana Baranovičová…
+  Scraping: zuzana-baranovicova-46aaa992... [36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:36.904Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:36.906Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:36.969Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:37.972Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:38.272Z Starting item#1 {"url":"https://www.linkedin.com/in/zuzana-baranovicova-46aaa992/"}...
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:41.963Z Scraped item#1 {"url":"https://www.linkedin.com/in/zuzana-baranovicova-46aaa992/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> 2026-02-01T21:58:41.970Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:3SPsTBQ2GJGyx2lIQ][0m -> Status: RUNNING, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[3/104] Vladimír Bareš…
+  Scraping: bares... [36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:49.134Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:49.136Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:49.203Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:51.002Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:51.294Z Starting item#1 {"url":"https://www.linkedin.com/in/bares/"}...
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:59.532Z Scraped item#1 {"url":"https://www.linkedin.com/in/bares/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:6n5TQkMosZA1mlpuc][0m -> 2026-02-01T21:58:59.783Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Československá obchodní banka,…“ vs LinkedIn „PPF banka…“)
+
+[4/104] Jiří Beránek…
+  Scraping: jiří-beránek-6908a924... [36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:07.778Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:07.779Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:07.817Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:09.348Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:09.558Z Starting item#1 {"url":"https://www.linkedin.com/in/jiří-beránek-6908a924"}...
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:15.223Z Scraped item#1 {"url":"https://www.linkedin.com/in/jiří-beránek-6908a924"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:CzDXRhB7vBA5rePVH][0m -> 2026-02-01T21:59:15.260Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[5/104] Lukáš Bárta…
+  Scraping: luk%C3%A1%C5%A1-b%C3%A1rta-8a2132a8... [36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:22.645Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:22.648Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:22.684Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:24.040Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:24.294Z Starting item#1 {"url":"https://www.linkedin.com/in/luk%C3%A1%C5%A1-b%C3%A1rta-8a2132a8"}...
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:27.161Z Scraped item#1 {"url":"https://www.linkedin.com/in/luk%C3%A1%C5%A1-b%C3%A1rta-8a2132a8"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> 2026-02-01T21:59:27.166Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:sdp4Xp3LsEZAkRDax][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[6/104] Zdeněk Bílek…
+  Scraping: zden%C4%9Bk-b%C3%ADlek-71a81254... [36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:34.507Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:34.509Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:34.640Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:36.648Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:36.996Z Starting item#1 {"url":"https://www.linkedin.com/in/zden%C4%9Bk-b%C3%ADlek-71a81254"}...
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:39.949Z Scraped item#1 {"url":"https://www.linkedin.com/in/zden%C4%9Bk-b%C3%ADlek-71a81254"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> 2026-02-01T21:59:39.955Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:JfokqMznAMfYiQKqg][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „FYZIOklinika s.r.o.…“ vs LinkedIn „Duelbits…“)
+
+[7/104] Renata Březnová…
+  Scraping: renata-breznova... [36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:47.228Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:47.229Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:47.302Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:48.588Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:48.809Z Starting item#1 {"url":"https://www.linkedin.com/in/renata-breznova/"}...
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:54.821Z Scraped item#1 {"url":"https://www.linkedin.com/in/renata-breznova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:3cBzCT3H5rpezaGFa][0m -> 2026-02-01T21:59:54.824Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[8/104] Michaela Chaloupková…
+  Scraping: michaela-chaloupkov%C3%A1-8bb14739... [36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:01.977Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:01.980Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:02.297Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:03.512Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:03.753Z Starting item#1 {"url":"https://www.linkedin.com/in/michaela-chaloupkov%C3%A1-8bb14739/"}...
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:08.508Z Scraped item#1 {"url":"https://www.linkedin.com/in/michaela-chaloupkov%C3%A1-8bb14739/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> 2026-02-01T22:00:08.513Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:WTeEDupAErhUNsiYB][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[9/104] Marek Csóka…
+  Scraping: marek-csoka... [36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:15.849Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:15.851Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:15.981Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:17.288Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:17.698Z Starting item#1 {"url":"https://www.linkedin.com/in/marek-csoka"}...
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:26.084Z Scraped item#1 {"url":"https://www.linkedin.com/in/marek-csoka"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> 2026-02-01T22:00:26.089Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:C6mcZoi2cUkWCTaZB][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[10/104] Janina Dvořáková…
+  Scraping: janinadvorakova... [36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:33.575Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:33.577Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:34.070Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:34.996Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:35.455Z Starting item#1 {"url":"https://www.linkedin.com/in/janinadvorakova/"}...
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:40.185Z Scraped item#1 {"url":"https://www.linkedin.com/in/janinadvorakova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> 2026-02-01T22:00:40.190Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:qUbcgt30tgMfC8Doj][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[11/104] Jan Figlovský…
+  Scraping: jan-figlovsk%C3%BD-1361b948... [36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:48.356Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:48.357Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:48.395Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:49.173Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:49.729Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-figlovsk%C3%BD-1361b948/"}...
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:53.655Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-figlovsk%C3%BD-1361b948/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> 2026-02-01T22:00:53.659Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:OTRFPRkOiepnhoCIW][0m -> Status: RUNNING, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[12/104] Markéta Foldyna Hellová…
+  Scraping: mark%C3%A9ta-foldyna-hellov%C3%A1-96a97b38... [36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:01.053Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:01.055Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:01.205Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:02.253Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:02.663Z Starting item#1 {"url":"https://www.linkedin.com/in/mark%C3%A9ta-foldyna-hellov%C3%A1-96a97b38/"}...
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:15.238Z Scraped item#1 {"url":"https://www.linkedin.com/in/mark%C3%A9ta-foldyna-hellov%C3%A1-96a97b38/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:mPV4rau1UP1QL1F8d][0m -> 2026-02-01T22:01:15.340Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Healthcare Innovation
+
+[13/104] Eduard Formáček…
+  Scraping: eduard-form%C3%A1%C4%8Dek... [36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:26.508Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:26.509Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:26.684Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:29.089Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:29.483Z Starting item#1 {"url":"https://www.linkedin.com/in/eduard-form%C3%A1%C4%8Dek/"}...
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:35.453Z Scraped item#1 {"url":"https://www.linkedin.com/in/eduard-form%C3%A1%C4%8Dek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> 2026-02-01T22:01:35.456Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:xTXYgg32yWdyi18em][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[14/104] Jakub Frank…
+  Scraping: jakub-frank-79aa6b285... [36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:42.724Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:42.725Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:43.264Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:44.638Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:44.831Z Starting item#1 {"url":"https://www.linkedin.com/in/jakub-frank-79aa6b285/"}...
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:48.892Z Scraped item#1 {"url":"https://www.linkedin.com/in/jakub-frank-79aa6b285/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:ctZrxcGntJeNLjg8c][0m -> 2026-02-01T22:01:48.896Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: --
+
+[15/104] Václav Geletič…
+  Scraping: vaclav-geletic... [36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:01:58.398Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:01:58.400Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:01:58.504Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:02:01.155Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:02:01.391Z Starting item#1 {"url":"https://www.linkedin.com/in/vaclav-geletic"}...
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:02:04.811Z Scraped item#1 {"url":"https://www.linkedin.com/in/vaclav-geletic"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:GZ2Rws4e23yhgCYBb][0m -> 2026-02-01T22:02:04.823Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[16/104] Jan Gillern…
+  Scraping: jan-gillern-824a9377... [36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:12.144Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:12.146Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:12.315Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:13.904Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:14.024Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-gillern-824a9377/"}...
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:17.234Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-gillern-824a9377/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:pp1h8ULPiEv1instN][0m -> 2026-02-01T22:02:17.238Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Product manager ve společnosti Pluxee
+
+[17/104] Roman Golec…
+  Scraping: roman-golec-9b2935... [36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:26.477Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:26.478Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:26.520Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:27.377Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:27.592Z Starting item#1 {"url":"https://www.linkedin.com/in/roman-golec-9b2935/"}...
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:29.941Z Scraped item#1 {"url":"https://www.linkedin.com/in/roman-golec-9b2935/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> 2026-02-01T22:02:29.944Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:uwH20DoR4VlIwCFaW][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: CFO and Executive Director
+
+[18/104] David Grbavčic…
+  Scraping: david-grbav%C4%8Dic-5b609719... [36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:39.097Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:39.099Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:39.190Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:40.908Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:41.240Z Starting item#1 {"url":"https://www.linkedin.com/in/david-grbav%C4%8Dic-5b609719/"}...
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:48.692Z Scraped item#1 {"url":"https://www.linkedin.com/in/david-grbav%C4%8Dic-5b609719/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> 2026-02-01T22:02:48.696Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:hVJQvXMuRMAqpQ70v][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Sales Director, Coach, Autenthic Human Being
+
+[19/104] Jana Grinco…
+  Scraping: janagrinco... [36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:02:57.786Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:02:57.787Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:02:57.850Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:02:59.695Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:03:00.201Z Starting item#1 {"url":"https://www.linkedin.com/in/janagrinco/"}...
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:03:04.998Z Scraped item#1 {"url":"https://www.linkedin.com/in/janagrinco/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> 2026-02-01T22:03:05.003Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:0Dx60Br6gLpGvauhZ][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[20/104] Jana Hamršmídová…
+  Scraping: jana-hamr%C5%A1m%C3%ADdov%C3%A1-898816a9... [36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:12.190Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:12.192Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:12.297Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:13.245Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:13.485Z Starting item#1 {"url":"https://www.linkedin.com/in/jana-hamr%C5%A1m%C3%ADdov%C3%A1-898816a9/"}...
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:16.867Z Scraped item#1 {"url":"https://www.linkedin.com/in/jana-hamr%C5%A1m%C3%ADdov%C3%A1-898816a9/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> 2026-02-01T22:03:16.872Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:MaqJOoBEVCI4DDdnY][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: --
+  💾 Průběžně uloženo (6 pozic)
+
+[21/104] Miroslav Hanzely…
+  Scraping: miroslavhanzely... [36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:26.130Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:26.131Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:26.175Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:27.115Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:27.329Z Starting item#1 {"url":"https://www.linkedin.com/in/miroslavhanzely/"}...
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:31.183Z Scraped item#1 {"url":"https://www.linkedin.com/in/miroslavhanzely/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:tI1RwhdICaWXjUf4J][0m -> 2026-02-01T22:03:31.192Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[22/104] Petr Hlavica…
+  Scraping: petr-hlavica-412812a9... [36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:38.416Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:38.417Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:38.475Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:39.856Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:40.051Z Starting item#1 {"url":"https://www.linkedin.com/in/petr-hlavica-412812a9/"}...
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:44.891Z Scraped item#1 {"url":"https://www.linkedin.com/in/petr-hlavica-412812a9/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:7GAVkcf3OXsPYFArB][0m -> 2026-02-01T22:03:44.894Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[23/104] Lumír Hlaváč…
+  Scraping: lum%C3%ADr-hlav%C3%A1%C4%8D-b0071123... [36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:52.034Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:52.036Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:52.079Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:52.906Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:53.203Z Starting item#1 {"url":"https://www.linkedin.com/in/lum%C3%ADr-hlav%C3%A1%C4%8D-b0071123/"}...
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:56.088Z Scraped item#1 {"url":"https://www.linkedin.com/in/lum%C3%ADr-hlav%C3%A1%C4%8D-b0071123/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:ZKYUtFTpC5ofEIIlO][0m -> 2026-02-01T22:03:56.091Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[24/104] Robert Hlaváček…
+  Scraping: roberthlavacek... [36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:03.266Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:03.270Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:03.614Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:05.637Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:05.932Z Starting item#1 {"url":"https://www.linkedin.com/in/roberthlavacek/"}...
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:31.793Z Scraped item#1 {"url":"https://www.linkedin.com/in/roberthlavacek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:hHAbsz8rxYVchhbkA][0m -> 2026-02-01T22:04:31.797Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[25/104] Martin Holboj…
+  Scraping: martin-holboj-5b0287265... [36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:40.793Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:40.795Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:40.882Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:42.314Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:42.541Z Starting item#1 {"url":"https://www.linkedin.com/in/martin-holboj-5b0287265/"}...
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:44.419Z Scraped item#1 {"url":"https://www.linkedin.com/in/martin-holboj-5b0287265/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> 2026-02-01T22:04:44.423Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:SfX4CEW23gSNLA2M2][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: VÚ podpora procesů a digitalizace
+
+[26/104] Ivana Hrdlickova…
+  Scraping: ivana-hrdli%C4%8Dkov%C3%A1-j-d-ph-d-31b11719... [36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:04:53.601Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:04:53.603Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:04:53.700Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:04:55.822Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:04:56.128Z Starting item#1 {"url":"https://www.linkedin.com/in/ivana-hrdli%C4%8Dkov%C3%A1-j-d-ph-d-31b11719/"}...
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:05:01.423Z Scraped item#1 {"url":"https://www.linkedin.com/in/ivana-hrdli%C4%8Dkov%C3%A1-j-d-ph-d-31b11719/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> 2026-02-01T22:05:01.427Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:edeKoLdc6biPhcabV][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Legal; Personal…“ vs LinkedIn „Justice…“)
+
+[27/104] Róbert Hvorečný…
+  Scraping: robert-hvorecny-5a399221... [36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:08.831Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:08.833Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:08.879Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:10.157Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:10.527Z Starting item#1 {"url":"https://www.linkedin.com/in/robert-hvorecny-5a399221/"}...
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:15.788Z Scraped item#1 {"url":"https://www.linkedin.com/in/robert-hvorecny-5a399221/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> 2026-02-01T22:05:15.790Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:6f9Lktq3hzS39W1xR][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Head of Digital IT Platforms & Cloud Services
+
+[28/104] Pavel Jech…
+  Scraping: pavel-jech-b9236250... [36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:24.949Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:24.951Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:25.004Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:25.946Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:26.201Z Starting item#1 {"url":"https://www.linkedin.com/in/pavel-jech-b9236250/"}...
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:28.534Z Scraped item#1 {"url":"https://www.linkedin.com/in/pavel-jech-b9236250/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> 2026-02-01T22:05:28.538Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:Z0RLog6EXgObbDy9U][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[29/104] Filip Jelínek…
+  Scraping: jelinekfilip... [36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:35.792Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:35.794Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:35.898Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:37.710Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:37.972Z Starting item#1 {"url":"https://www.linkedin.com/in/jelinekfilip/"}...
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:41.374Z Scraped item#1 {"url":"https://www.linkedin.com/in/jelinekfilip/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> 2026-02-01T22:05:41.380Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:dNh1grYmLTb7zsAG4][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[30/104] Tomáš Jeníček…
+  Scraping: tomasjenicek... [36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:48.854Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:48.856Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:48.975Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:51.001Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:51.360Z Starting item#1 {"url":"https://www.linkedin.com/in/tomasjenicek"}...
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:55.857Z Scraped item#1 {"url":"https://www.linkedin.com/in/tomasjenicek"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> 2026-02-01T22:05:55.891Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:ljtVPHEQxUbuq4L6U][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[31/104] Miroslav Jestřabík…
+  Scraping: mjestrabik... [36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:03.259Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:03.261Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:03.339Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:04.292Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:04.500Z Starting item#1 {"url":"https://www.linkedin.com/in/mjestrabik/"}...
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:07.430Z Scraped item#1 {"url":"https://www.linkedin.com/in/mjestrabik/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:n8R0Ba0iAmVfUq3D2][0m -> 2026-02-01T22:06:07.435Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „MND a.s.…“ vs LinkedIn „KKCG a.s.…“)
+
+[32/104] Jiří Ječmen…
+  Scraping: jiri-jecmen-146a655a... [36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:14.594Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:14.596Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:14.634Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:15.886Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:16.119Z Starting item#1 {"url":"https://www.linkedin.com/in/jiri-jecmen-146a655a/"}...
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:18.886Z Scraped item#1 {"url":"https://www.linkedin.com/in/jiri-jecmen-146a655a/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> 2026-02-01T22:06:18.889Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:bGVTblH5Jw7aEWBOW][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „MND a.s.…“ vs LinkedIn „KKCG Group…“)
+
+[33/104] Radomír Jurečka…
+  Scraping: radom%C3%ADr-jure%C4%8Dka-803356249... [36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:26.026Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:26.036Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:26.085Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:27.617Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:27.838Z Starting item#1 {"url":"https://www.linkedin.com/in/radom%C3%ADr-jure%C4%8Dka-803356249/"}...
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:33.561Z Scraped item#1 {"url":"https://www.linkedin.com/in/radom%C3%ADr-jure%C4%8Dka-803356249/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:jknosePfIYYsZ0k2k][0m -> 2026-02-01T22:06:33.565Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Product Owner
+
+[34/104] Lucie Jurystova…
+  Scraping: luciejurystova... [36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:06:42.842Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:06:42.844Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:06:42.912Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:06:44.023Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:06:44.288Z Starting item#1 {"url":"https://www.linkedin.com/in/luciejurystova/"}...
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:07:06.907Z Scraped item#1 {"url":"https://www.linkedin.com/in/luciejurystova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:QTFhVbdh1E7EwDheo][0m -> 2026-02-01T22:07:07.205Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[35/104] Jakub Kaufmann…
+  Scraping: jakub-kaufmann-12751359... [36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:16.416Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:16.419Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:16.468Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:17.750Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:18.023Z Starting item#1 {"url":"https://www.linkedin.com/in/jakub-kaufmann-12751359/"}...
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:21.810Z Scraped item#1 {"url":"https://www.linkedin.com/in/jakub-kaufmann-12751359/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> 2026-02-01T22:07:21.814Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:KH2SyJe9xFgzOQKaQ][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: IT business analytik
+
+[36/104] Vojtěch Keselica…
+  Scraping: vojtechkeselica... [36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:30.994Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:30.995Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:31.209Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:32.258Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:32.411Z Starting item#1 {"url":"https://www.linkedin.com/in/vojtechkeselica/"}...
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:36.770Z Scraped item#1 {"url":"https://www.linkedin.com/in/vojtechkeselica/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> 2026-02-01T22:07:36.774Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:txC9qmrAZZEaHNDq6][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Strategy
+
+[37/104] Lucia Klein…
+  Scraping: lucia--klein... [36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:45.999Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:46.003Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:46.084Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:47.119Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:47.314Z Starting item#1 {"url":"https://www.linkedin.com/in/lucia--klein/"}...
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:51.772Z Scraped item#1 {"url":"https://www.linkedin.com/in/lucia--klein/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> 2026-02-01T22:07:51.775Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:lJ8biGUOWk3GGmNPD][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[38/104] Ludmila Klimešová…
+  Scraping: ludmila-klimesova-a7410241... [36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:07:59.015Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:07:59.017Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:07:59.062Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:08:00.272Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:08:00.496Z Starting item#1 {"url":"https://www.linkedin.com/in/ludmila-klimesova-a7410241/"}...
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:08:04.847Z Scraped item#1 {"url":"https://www.linkedin.com/in/ludmila-klimesova-a7410241/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> 2026-02-01T22:08:04.852Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:rKa28sqSQbA2yTqCI][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[39/104] Pavla Kociánová…
+  Scraping: pavla-koci%C3%A1nov%C3%A1-7835b8b6... [36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:12.025Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:12.028Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:12.216Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:14.321Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:14.545Z Starting item#1 {"url":"https://www.linkedin.com/in/pavla-koci%C3%A1nov%C3%A1-7835b8b6/"}...
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:17.328Z Scraped item#1 {"url":"https://www.linkedin.com/in/pavla-koci%C3%A1nov%C3%A1-7835b8b6/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> 2026-02-01T22:08:17.339Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:ye7XUxqCMgRwauOnA][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[40/104] David Kolín…
+  Scraping: david-kol%C3%ADn-6646b71ba... [36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:24.556Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:24.558Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:24.622Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:25.696Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:25.965Z Starting item#1 {"url":"https://www.linkedin.com/in/david-kol%C3%ADn-6646b71ba/"}...
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:27.535Z Scraped item#1 {"url":"https://www.linkedin.com/in/david-kol%C3%ADn-6646b71ba/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:7qEjv71IeL1Yo5hox][0m -> 2026-02-01T22:08:27.537Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Senior projektový manager ve společnosti GasNet CZ
+  💾 Průběžně uloženo (12 pozic)
+
+[41/104] Lenka Kosmatová…
+  Scraping: lenkakosmatova... [36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:36.752Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:36.753Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:36.802Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:37.664Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:37.922Z Starting item#1 {"url":"https://www.linkedin.com/in/lenkakosmatova/"}...
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:42.495Z Scraped item#1 {"url":"https://www.linkedin.com/in/lenkakosmatova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> 2026-02-01T22:08:42.499Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:EHQKGSJYDoeFtShiR][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[42/104] Libor Kožoušek…
+  Scraping: libor-kozousek... [36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:49.604Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:49.606Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:49.656Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:51.140Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:51.403Z Starting item#1 {"url":"https://www.linkedin.com/in/libor-kozousek/"}...
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:54.796Z Scraped item#1 {"url":"https://www.linkedin.com/in/libor-kozousek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:UHIUwGGPfveLbSmET][0m -> 2026-02-01T22:08:54.802Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[43/104] Jan Krpata…
+  Scraping: jan-krpata-b013741b... [36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:02.133Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:02.135Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:02.189Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:03.252Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:03.482Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-krpata-b013741b/"}...
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:05.344Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-krpata-b013741b/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:H3eenkVywT1uQQmN9][0m -> 2026-02-01T22:09:05.348Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[44/104] Jan Kryll…
+  Scraping: jan-kryll-9b9242140... [36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:13.209Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:13.211Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:13.280Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:14.719Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:14.947Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-kryll-9b9242140/"}...
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:20.128Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-kryll-9b9242140/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> 2026-02-01T22:09:20.136Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:O9F1Xz7TTuUzWRabB][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Technology & AI
+
+[45/104] Zdeněk Král…
+  Scraping: kralzdenek... [36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:29.316Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:29.318Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:29.365Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:30.648Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:30.924Z Starting item#1 {"url":"https://www.linkedin.com/in/kralzdenek/"}...
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:34.190Z Scraped item#1 {"url":"https://www.linkedin.com/in/kralzdenek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> 2026-02-01T22:09:34.194Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:38J3nFLQjNakowYDh][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: IT Operations Manager
+
+[46/104] Milan Kuncíř…
+  Scraping: milan-kunc%C3%AD%C5%99-74565b36... [36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:43.490Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:43.491Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:43.552Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:44.901Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:45.137Z Starting item#1 {"url":"https://www.linkedin.com/in/milan-kunc%C3%AD%C5%99-74565b36/"}...
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:48.797Z Scraped item#1 {"url":"https://www.linkedin.com/in/milan-kunc%C3%AD%C5%99-74565b36/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:5cokRZcWJYxYUeHeJ][0m -> 2026-02-01T22:09:48.801Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: CEO
+
+[47/104] Pavel Kučera…
+  Scraping: pavel-kucera-91a5a33... [36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:09:58.024Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:09:58.025Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:09:58.060Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:09:59.126Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:09:59.320Z Starting item#1 {"url":"https://www.linkedin.com/in/pavel-kucera-91a5a33/"}...
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:10:01.866Z Scraped item#1 {"url":"https://www.linkedin.com/in/pavel-kucera-91a5a33/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> 2026-02-01T22:10:01.871Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:I0ZG3ZzVtDEET5FM2][0m -> Status: RUNNING, Message: success
+✓
+  → Pozice: Senior Executive na projektu Moove
+
+[48/104] Henrieta Lenčéšová…
+  Scraping: henrietalencesova... [36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:11.041Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:11.042Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:11.084Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:12.335Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:12.616Z Starting item#1 {"url":"https://www.linkedin.com/in/henrietalencesova/"}...
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:36.249Z Scraped item#1 {"url":"https://www.linkedin.com/in/henrietalencesova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:JvK9pwmCkoNv9osBQ][0m -> 2026-02-01T22:10:36.522Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Head of IT Governance, Delivery & QA
+
+[49/104] Andrea Leskovská…
+  Scraping: andrealeskovska... [36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:10:47.733Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:10:47.736Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:10:47.774Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:10:48.682Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:10:48.933Z Starting item#1 {"url":"https://www.linkedin.com/in/andrealeskovska/"}...
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:11:03.117Z Scraped item#1 {"url":"https://www.linkedin.com/in/andrealeskovska/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:eyzm3taoaJABTUW2l][0m -> 2026-02-01T22:11:03.221Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[50/104] David Libich…
+  Scraping: libichdavid... [36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:11.890Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:11.892Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:11.949Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:13.178Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:13.404Z Starting item#1 {"url":"https://www.linkedin.com/in/libichdavid/"}...
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:16.898Z Scraped item#1 {"url":"https://www.linkedin.com/in/libichdavid/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:RmUiuX42aEGozSz9e][0m -> 2026-02-01T22:11:16.902Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Head of New Media & Communication @Raiffeisenbank ČR
+  💾 Průběžně uloženo (18 pozic)
+
+[51/104] Ondřej Liška…
+  Scraping: ondrej-liska-b5b331250... [36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:26.175Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:26.177Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:26.212Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:27.014Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:27.208Z Starting item#1 {"url":"https://www.linkedin.com/in/ondrej-liska-b5b331250"}...
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:30.431Z Scraped item#1 {"url":"https://www.linkedin.com/in/ondrej-liska-b5b331250"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> 2026-02-01T22:11:30.434Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:Sw3wk9H0fESZsgMpP][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[52/104] Jan Lobik…
+  Scraping: jan-lobik-315b8357... [36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:37.532Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:37.533Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:37.619Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:39.341Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:39.614Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-lobik-315b8357/cs"}...
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:44.424Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-lobik-315b8357/cs"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> 2026-02-01T22:11:44.429Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:KoEZBQBl6DpVpWINC][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[53/104] Denisa Malá…
+  Scraping: denisa-mal%C3%A1-656275297... [36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:51.670Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:51.672Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:51.796Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:53.705Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:53.982Z Starting item#1 {"url":"https://www.linkedin.com/in/denisa-mal%C3%A1-656275297"}...
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:58.356Z Scraped item#1 {"url":"https://www.linkedin.com/in/denisa-mal%C3%A1-656275297"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> 2026-02-01T22:11:58.365Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:59Cq018GuRTknxfBj][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[54/104] Lucie Malá Vrbová…
+  Scraping: lucie-vrbov%C3%A1-77899125... [36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:05.653Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:05.655Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:05.705Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:06.705Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:06.918Z Starting item#1 {"url":"https://www.linkedin.com/in/lucie-vrbov%C3%A1-77899125/"}...
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.209Z Error scraping item#1 {"url":"https://www.linkedin.com/in/lucie-vrbov%C3%A1-77899125/"}: [
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.223Z   {
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.225Z     "error": "This profile can't be accessed",
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.227Z     "status": 403
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.229Z   }
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.231Z ]
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> 2026-02-01T22:12:07.232Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:1TtEA1lLTF3gS3Ipu][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[55/104] Lukáš Mikula…
+  Scraping: lukasmikula... [36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:14.320Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:14.322Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:14.372Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:15.233Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:15.441Z Starting item#1 {"url":"https://www.linkedin.com/in/lukasmikula/"}...
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:18.315Z Scraped item#1 {"url":"https://www.linkedin.com/in/lukasmikula/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:1e4yXaq5YOViqpjX2][0m -> 2026-02-01T22:12:18.319Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[56/104] Přemysl Mucha…
+  Scraping: muchapre... [36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:25.451Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:25.453Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:25.666Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:26.898Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:27.113Z Starting item#1 {"url":"https://www.linkedin.com/in/muchapre/"}...
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:30.225Z Scraped item#1 {"url":"https://www.linkedin.com/in/muchapre/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> 2026-02-01T22:12:30.231Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:gA7W4oaOOgp873jma][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[57/104] Petr Musil…
+  Scraping: petr-musil... [36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:37.509Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:37.511Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:37.545Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:38.557Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:38.734Z Starting item#1 {"url":"https://www.linkedin.com/in/petr-musil"}...
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:41.939Z Scraped item#1 {"url":"https://www.linkedin.com/in/petr-musil"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> 2026-02-01T22:12:41.943Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:iotlwgTeOuXnXD8gf][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[58/104] Radana Místečanová…
+  Scraping: radana-mistecanova... [36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:49.066Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:49.068Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:49.166Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:50.224Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:50.439Z Starting item#1 {"url":"https://www.linkedin.com/in/radana-mistecanova/"}...
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:53.088Z Scraped item#1 {"url":"https://www.linkedin.com/in/radana-mistecanova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:8Iny4FSVfVJtDLgcI][0m -> 2026-02-01T22:12:53.094Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Home Credit N.V., odštěpný záv…“ vs LinkedIn „EmbedIT…“)
+
+[59/104] Vladimír Műller…
+  Scraping: vladimir-muller-vm... [36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:00.383Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:00.384Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:00.435Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:01.807Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:02.043Z Starting item#1 {"url":"https://www.linkedin.com/in/vladimir-muller-vm/"}...
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:05.087Z Scraped item#1 {"url":"https://www.linkedin.com/in/vladimir-muller-vm/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> 2026-02-01T22:13:05.091Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:GHldLHGqq8N92cyVv][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: COO, Vice-Chairman of the BoD, Czech Airlines Technics
+
+[60/104] Richard Nagy…
+  Scraping: richard-nagy-695b4229... [36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:14.237Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:14.239Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:14.273Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:15.209Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:15.396Z Starting item#1 {"url":"https://www.linkedin.com/in/richard-nagy-695b4229/"}...
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:19.915Z Scraped item#1 {"url":"https://www.linkedin.com/in/richard-nagy-695b4229/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> 2026-02-01T22:13:19.920Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:uJfcVwuVgKOfUIY87][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[61/104] Tomas Nemec…
+  Scraping: nemeccz... [36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:27.057Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:27.059Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:27.110Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:28.785Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:28.999Z Starting item#1 {"url":"https://www.linkedin.com/in/nemeccz/"}...
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:35.593Z Scraped item#1 {"url":"https://www.linkedin.com/in/nemeccz/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:by1OaVjQWYUwewc2j][0m -> 2026-02-01T22:13:35.599Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[62/104] Radek Němec…
+  Scraping: nemecradek... [36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:42.777Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:42.778Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:42.835Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:44.525Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:44.756Z Starting item#1 {"url":"https://www.linkedin.com/in/nemecradek/"}...
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:48.682Z Scraped item#1 {"url":"https://www.linkedin.com/in/nemecradek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> 2026-02-01T22:13:48.691Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:VYOY3xIJiDgUzf6oN][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „ČEZ…“ vs LinkedIn „Air Bank a.s.…“)
+
+[63/104] Petr Olekšák…
+  Scraping: petr-oleksak-a0215a63... [36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:56.323Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:56.324Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:56.368Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:57.235Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:57.454Z Starting item#1 {"url":"https://www.linkedin.com/in/petr-oleksak-a0215a63/"}...
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.560Z Error scraping item#1 {"url":"https://www.linkedin.com/in/petr-oleksak-a0215a63/"}: [
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.561Z   {
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.561Z     "error": "This profile can't be accessed",
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.562Z     "status": 403
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.563Z   }
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.563Z ]
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> 2026-02-01T22:13:58.565Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:mRGtmLuqWyFPgeveZ][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[64/104] Tomáš Palovský…
+  Scraping: tomaspalovsky... [36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:05.721Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:05.723Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:05.760Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:06.778Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:07.060Z Starting item#1 {"url":"https://www.linkedin.com/in/tomaspalovsky"}...
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:11.251Z Scraped item#1 {"url":"https://www.linkedin.com/in/tomaspalovsky"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> 2026-02-01T22:14:11.255Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:ayn1FY0D5o4RrIxXf][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Chief Communication & Brand Officer
+
+[65/104] Václav Papák…
+  Scraping: vaclav-papak-b9873330... [36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:20.516Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:20.518Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:20.566Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:21.437Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:21.614Z Starting item#1 {"url":"https://www.linkedin.com/in/vaclav-papak-b9873330/"}...
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:23.640Z Scraped item#1 {"url":"https://www.linkedin.com/in/vaclav-papak-b9873330/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> 2026-02-01T22:14:23.644Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:ev48oN0hmw8fSh6SW][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „SCG Czech Design Center, s.r.o…“ vs LinkedIn „onsemi…“)
+
+[66/104] Jana Peffková…
+  Scraping: jana-peffkova-43a03750... [36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:30.826Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:30.832Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:30.883Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:31.713Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:31.953Z Starting item#1 {"url":"https://www.linkedin.com/in/jana-peffkova-43a03750/"}...
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:56.981Z Scraped item#1 {"url":"https://www.linkedin.com/in/jana-peffkova-43a03750/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:8kyoToj6NVGezsfNK][0m -> 2026-02-01T22:14:57.083Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[67/104] Jan Perutka…
+  Scraping: jan-perutka-6ba784297... [36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:06.322Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:06.324Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:06.364Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:07.943Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:08.217Z Starting item#1 {"url":"https://www.linkedin.com/in/jan-perutka-6ba784297/"}...
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:11.456Z Scraped item#1 {"url":"https://www.linkedin.com/in/jan-perutka-6ba784297/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:PCoOe4bgwYNRMhDXF][0m -> 2026-02-01T22:15:11.462Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[68/104] Tomáš Pešek…
+  Scraping: tompesek... [36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:18.626Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:18.628Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:18.666Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:19.620Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:19.828Z Starting item#1 {"url":"https://www.linkedin.com/in/tompesek/"}...
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:23.609Z Scraped item#1 {"url":"https://www.linkedin.com/in/tompesek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> 2026-02-01T22:15:23.614Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:CnsWjAHxsYKxOb4ID][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: IT Operations & agile transformation lead
+
+[69/104] Ctibor Pilnaj…
+  Scraping: ctiborpilnaj... [36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:32.764Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:32.766Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:32.807Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:34.379Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:34.623Z Starting item#1 {"url":"https://www.linkedin.com/in/ctiborpilnaj/"}...
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:38.009Z Scraped item#1 {"url":"https://www.linkedin.com/in/ctiborpilnaj/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:QtfaB4CuHz2b7WZTM][0m -> 2026-02-01T22:15:38.015Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[70/104] Michal Poppe…
+  Scraping: michalpoppe... [36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:45.202Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:45.203Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:45.243Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:46.399Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:46.715Z Starting item#1 {"url":"https://www.linkedin.com/in/michalpoppe/"}...
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:49.360Z Scraped item#1 {"url":"https://www.linkedin.com/in/michalpoppe/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> 2026-02-01T22:15:49.364Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:DBEl4cmPR5tYveQOD][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „RB Associates s.r.o. (Red Butt…“ vs LinkedIn „Bezobaláč Zlín…“)
+
+[71/104] Barbora Prokopová…
+  Scraping: barbora-prokopova-0ab63898... [36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:56.432Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:56.434Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:56.467Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:57.484Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:57.708Z Starting item#1 {"url":"https://www.linkedin.com/in/barbora-prokopova-0ab63898/"}...
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:59.486Z Scraped item#1 {"url":"https://www.linkedin.com/in/barbora-prokopova-0ab63898/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> 2026-02-01T22:15:59.490Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:lFb3cvUImP5D4NauG][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[72/104] Josef Raušer…
+  Scraping: josef-rau%C5%A1er-721699aa... [36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:06.602Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:06.603Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:06.647Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:08.129Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:08.327Z Starting item#1 {"url":"https://www.linkedin.com/in/josef-rau%C5%A1er-721699aa/"}...
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:10.641Z Scraped item#1 {"url":"https://www.linkedin.com/in/josef-rau%C5%A1er-721699aa/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:ZEyugHldhACKyv61w][0m -> 2026-02-01T22:16:10.646Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[73/104] Alena Rebernik Holubcová…
+  Scraping: alena-holubcova-gets-it-done... [36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:17.925Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:17.927Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:17.984Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:18.842Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:19.155Z Starting item#1 {"url":"https://www.linkedin.com/in/alena-holubcova-gets-it-done/"}...
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:23.009Z Scraped item#1 {"url":"https://www.linkedin.com/in/alena-holubcova-gets-it-done/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:v1Acncy2mtjtiYMye][0m -> 2026-02-01T22:16:23.014Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[74/104] Zdeněk Remr…
+  Scraping: zdenekremr... [36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:30.134Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:30.136Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:30.180Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:31.772Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:32.066Z Starting item#1 {"url":"https://www.linkedin.com/in/zdenekremr/"}...
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:37.866Z Scraped item#1 {"url":"https://www.linkedin.com/in/zdenekremr/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> 2026-02-01T22:16:37.916Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:ccq4CcMiazGdX3qCt][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[75/104] Jakub Romek…
+  Scraping: jakub-romek... [36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:45.274Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:45.275Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:45.333Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:47.327Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:47.714Z Starting item#1 {"url":"https://www.linkedin.com/in/jakub-romek/"}...
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:50.912Z Scraped item#1 {"url":"https://www.linkedin.com/in/jakub-romek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> 2026-02-01T22:16:50.916Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:4dILwBGpbT5irsFYd][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: IT & Business Analyst
+
+[76/104] Peter Sebök…
+  Scraping: peter-sebok-636b6421... [36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:00.135Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:00.136Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:00.203Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:01.065Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:01.302Z Starting item#1 {"url":"https://www.linkedin.com/in/peter-sebok-636b6421"}...
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:04.336Z Scraped item#1 {"url":"https://www.linkedin.com/in/peter-sebok-636b6421"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> 2026-02-01T22:17:04.341Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:fvEZdy2qOBxWtTqkh][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Head of Value & Performance management
+
+[77/104] Ondřej Sellner…
+  Scraping: ond%C5%99ej-sellner-75915b169... [36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:13.500Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:13.502Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:13.651Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:15.832Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:16.041Z Starting item#1 {"url":"https://www.linkedin.com/in/ond%C5%99ej-sellner-75915b169/"}...
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:18.950Z Scraped item#1 {"url":"https://www.linkedin.com/in/ond%C5%99ej-sellner-75915b169/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> 2026-02-01T22:17:18.954Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:v3ClZCWRA7E7jTF6o][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Manažer obchodní logistiky T-Mobile Czech Republic
+
+[78/104] Martina Skohoutilová…
+  Scraping: martiskoh... [36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:28.272Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:28.274Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:28.335Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:29.353Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:29.571Z Starting item#1 {"url":"https://www.linkedin.com/in/martiskoh"}...
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:31.873Z Scraped item#1 {"url":"https://www.linkedin.com/in/martiskoh"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> 2026-02-01T22:17:31.877Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:SYYtKBJGCFFUhefmQ][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[79/104] Miroslav Slivoně…
+  Scraping: miroslav-slivone-b41922114... [36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:39.052Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:39.054Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:39.141Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:40.415Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:40.638Z Starting item#1 {"url":"https://www.linkedin.com/in/miroslav-slivone-b41922114/"}...
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:44.264Z Scraped item#1 {"url":"https://www.linkedin.com/in/miroslav-slivone-b41922114/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> 2026-02-01T22:17:44.267Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:CZdVu0ypMx7TnsU1D][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Solution Architect
+
+[80/104] Petra Smolová…
+  Scraping: petra-smolova-acca-6a154443... [36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:53.382Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:53.384Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:53.459Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:54.430Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:54.713Z Starting item#1 {"url":"https://www.linkedin.com/in/petra-smolova-acca-6a154443/"}...
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.162Z Error scraping item#1 {"url":"https://www.linkedin.com/in/petra-smolova-acca-6a154443/"}: [
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.167Z   {
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.167Z     "error": "This profile can't be accessed",
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.168Z     "status": 403
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.169Z   }
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.170Z ]
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:twvlVHoxSdQcPaKo5][0m -> 2026-02-01T22:17:55.171Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[81/104] Robert Sobol…
+  Scraping: robert-sobol-1a702244... [36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:02.457Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:02.458Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:02.503Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:03.792Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:04.058Z Starting item#1 {"url":"https://www.linkedin.com/in/robert-sobol-1a702244/"}...
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:08.635Z Scraped item#1 {"url":"https://www.linkedin.com/in/robert-sobol-1a702244/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:4itnEgIrBBQlBzxu7][0m -> 2026-02-01T22:18:08.640Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[82/104] Roman Sokola…
+  Scraping: romansokola... [36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:15.873Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:15.874Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:15.912Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:16.902Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:17.085Z Starting item#1 {"url":"https://www.linkedin.com/in/romansokola/"}...
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:20.807Z Scraped item#1 {"url":"https://www.linkedin.com/in/romansokola/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> 2026-02-01T22:18:20.813Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:qodFzSBUGwt6A4atc][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[83/104] Boris Struhár…
+  Scraping: boris-struhar-33991a96... [36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:27.964Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:27.965Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:28.072Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:29.136Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:29.346Z Starting item#1 {"url":"https://www.linkedin.com/in/boris-struhar-33991a96"}...
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:32.784Z Scraped item#1 {"url":"https://www.linkedin.com/in/boris-struhar-33991a96"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> 2026-02-01T22:18:32.791Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:QXiSaLgge2TuAs3qu][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Head of Corporate Systems and IT Operations
+
+[84/104] Bohumil Suchánek…
+  Scraping: bohumil-such%C3%A1nek-02145738... [36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:42.315Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:42.316Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:42.388Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:43.754Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:44.024Z Starting item#1 {"url":"https://www.linkedin.com/in/bohumil-such%C3%A1nek-02145738/"}...
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:47.694Z Scraped item#1 {"url":"https://www.linkedin.com/in/bohumil-such%C3%A1nek-02145738/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> 2026-02-01T22:18:47.710Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:wENdm9QsCYeZvTPeu][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[85/104] Michal Teichman…
+  Scraping: michal-teichman-856404199... [36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:54.544Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:54.546Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:54.608Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:55.702Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:55.914Z Starting item#1 {"url":"https://www.linkedin.com/in/michal-teichman-856404199/"}...
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:58.694Z Scraped item#1 {"url":"https://www.linkedin.com/in/michal-teichman-856404199/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:FneAdKKRh3fAIcJGx][0m -> 2026-02-01T22:18:58.703Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Joybike…“ vs LinkedIn „JOY.BIKE…“)
+
+[86/104] Dan Tržil…
+  Scraping: dantrzil... [36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:05.967Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:05.969Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:06.067Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:08.659Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:08.951Z Starting item#1 {"url":"https://www.linkedin.com/in/dantrzil/"}...
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:12.799Z Scraped item#1 {"url":"https://www.linkedin.com/in/dantrzil/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> 2026-02-01T22:19:12.808Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:Tos2UJw7snTAwrMD6][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[87/104] Aneta Typoltová…
+  Scraping: aneta-typoltov%C3%A1-0b515b210... [36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:20.166Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:20.167Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:20.222Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:21.072Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:21.354Z Starting item#1 {"url":"https://www.linkedin.com/in/aneta-typoltov%C3%A1-0b515b210/"}...
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:23.166Z Scraped item#1 {"url":"https://www.linkedin.com/in/aneta-typoltov%C3%A1-0b515b210/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:34b2xbrXHAHKLYhrC][0m -> 2026-02-01T22:19:23.172Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Senior HR Business Partner v Pluxee Česká republika
+
+[88/104] Lenka Vaněk…
+  Scraping: lenka-vanek... [36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:32.483Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:32.485Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:32.787Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:33.846Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:34.358Z Starting item#1 {"url":"https://www.linkedin.com/in/lenka-vanek/"}...
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:38.051Z Scraped item#1 {"url":"https://www.linkedin.com/in/lenka-vanek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> 2026-02-01T22:19:38.054Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:7h3sy2NSx6XJvHwel][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Transformation & Innovation
+
+[89/104] Aleš Vaverka…
+  Scraping: ale%C5%A1-vaverka-410a2b63... [36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:47.400Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:47.402Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:47.460Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:48.480Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:48.674Z Starting item#1 {"url":"https://www.linkedin.com/in/ale%C5%A1-vaverka-410a2b63/"}...
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:56.439Z Scraped item#1 {"url":"https://www.linkedin.com/in/ale%C5%A1-vaverka-410a2b63/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> 2026-02-01T22:19:56.446Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:er2GRFbVVeErbTq7S][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[90/104] Jiri Vizdal…
+  Scraping: jirivizdal... [36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:03.751Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:03.753Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:03.793Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:04.597Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:04.868Z Starting item#1 {"url":"https://www.linkedin.com/in/jirivizdal/"}...
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:12.162Z Scraped item#1 {"url":"https://www.linkedin.com/in/jirivizdal/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> 2026-02-01T22:20:12.165Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:0ZRxLrJRds4YgmjvK][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[91/104] Marek Vogl…
+  Scraping: marekvogl... [36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:19.400Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:19.402Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:19.444Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:21.878Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:22.142Z Starting item#1 {"url":"https://www.linkedin.com/in/marekvogl"}...
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:31.331Z Scraped item#1 {"url":"https://www.linkedin.com/in/marekvogl"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:wJYbXgS5H3Cc6B4yB][0m -> 2026-02-01T22:20:31.421Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Performance Management | Analytics | BI
+  → Firma doplněna: Hilti CZ
+
+[92/104] Martin Volek…
+  Scraping: martinvolek... [36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:43.176Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:43.178Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:43.250Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:44.781Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:45.018Z Starting item#1 {"url":"https://www.linkedin.com/in/martinvolek/"}...
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:52.724Z Scraped item#1 {"url":"https://www.linkedin.com/in/martinvolek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:9jXN7UdQ3ntgRffj9][0m -> 2026-02-01T22:20:52.729Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[93/104] Martin Vostatek…
+  Scraping: martinvostatek... [36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:00.119Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:00.121Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:00.351Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:01.905Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:02.153Z Starting item#1 {"url":"https://www.linkedin.com/in/martinvostatek/"}...
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:06.238Z Scraped item#1 {"url":"https://www.linkedin.com/in/martinvostatek/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> 2026-02-01T22:21:06.242Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:liAteadKC88shk6TT][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Pozice: Delivery Manager and AI Office
+
+[94/104] Marta Vozár…
+  Scraping: marta-leszczynska-vozar... [36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:15.380Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:15.382Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:15.444Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:16.902Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:17.172Z Starting item#1 {"url":"https://www.linkedin.com/in/marta-leszczynska-vozar/"}...
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:35.545Z Scraped item#1 {"url":"https://www.linkedin.com/in/marta-leszczynska-vozar/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:jJN2xuCmwAyg9DyLv][0m -> 2026-02-01T22:21:35.745Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[95/104] Libor Vranka…
+  Scraping: libor-vranka... [36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:44.815Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:44.817Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:44.902Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:47.258Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:47.463Z Starting item#1 {"url":"https://www.linkedin.com/in/libor-vranka/"}...
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:50.288Z Scraped item#1 {"url":"https://www.linkedin.com/in/libor-vranka/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> 2026-02-01T22:21:50.292Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:f1P1QWUrMB9atosLo][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[96/104] Ondřej Čech…
+  Scraping: ondrej-cech... [36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:21:57.490Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:21:57.492Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:21:57.550Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:21:58.560Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:21:58.777Z Starting item#1 {"url":"https://www.linkedin.com/in/ondrej-cech/"}...
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:22:01.554Z Scraped item#1 {"url":"https://www.linkedin.com/in/ondrej-cech/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:fajo5oqreKEhiS1ov][0m -> 2026-02-01T22:22:01.557Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Raiffeisenbank a. s.…“ vs LinkedIn „Commerzbank AG…“)
+
+[97/104] Petr Šafránek…
+  Scraping: petr-%C5%A1afr%C3%A1nek-95829093... [36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:08.766Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:08.769Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:08.824Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:10.542Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:10.872Z Starting item#1 {"url":"https://www.linkedin.com/in/petr-%C5%A1afr%C3%A1nek-95829093/"}...
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:16.588Z Scraped item#1 {"url":"https://www.linkedin.com/in/petr-%C5%A1afr%C3%A1nek-95829093/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> 2026-02-01T22:22:16.599Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:qZ53MkEkr709btkoj][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[98/104] Veronika Šamárková…
+  Scraping: veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055... [36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:23.934Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:23.938Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:24.008Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:25.472Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:25.717Z Starting item#1 {"url":"https://www.linkedin.com/in/veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055/"}...
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:28.689Z Scraped item#1 {"url":"https://www.linkedin.com/in/veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> 2026-02-01T22:22:28.698Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:dIqyW7rLC2lmTjeeR][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[99/104] Bohuslav Šantrůček…
+  Scraping: bohuslav-santrucek-413969273... [36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:35.847Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:35.849Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:35.894Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:37.498Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:37.737Z Starting item#1 {"url":"https://www.linkedin.com/in/bohuslav-santrucek-413969273/"}...
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:42.347Z Scraped item#1 {"url":"https://www.linkedin.com/in/bohuslav-santrucek-413969273/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> 2026-02-01T22:22:42.353Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:stQlkO7VSwQmTN0gI][0m -> Status: SUCCEEDED, Message: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „C.E.E. Group Travelport a.s.…“ vs LinkedIn „CEE Travel Systems…“)
+
+[100/104] Jan Ševčík…
+  Scraping: jansevcik... [36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:49.559Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:49.560Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:49.601Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:51.005Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:51.282Z Starting item#1 {"url":"https://www.linkedin.com/in/jansevcik"}...
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:57.623Z Scraped item#1 {"url":"https://www.linkedin.com/in/jansevcik"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> 2026-02-01T22:22:57.626Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:jR7n2G6oeEf17l0D5][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[101/104] Jan Široký…
+  Scraping: honza-siroky... [36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:04.850Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:04.851Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:05.077Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:06.119Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:06.395Z Starting item#1 {"url":"https://www.linkedin.com/in/honza-siroky/"}...
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:10.203Z Scraped item#1 {"url":"https://www.linkedin.com/in/honza-siroky/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:vTH4zZXt8eDePoRn6][0m -> 2026-02-01T22:23:10.207Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „Mezi "džoby"…“ vs LinkedIn „United Founders…“)
+
+[102/104] HANA ŠOURKOVÁ…
+  Scraping: hana-sourkova... [36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:17.542Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:17.544Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:17.819Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:18.925Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:19.148Z Starting item#1 {"url":"https://www.linkedin.com/in/hana-sourkova/"}...
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:21.842Z Scraped item#1 {"url":"https://www.linkedin.com/in/hana-sourkova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> 2026-02-01T22:23:21.848Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:GOWxHZSYKfmgDx2X9][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[103/104] Michal Štúň…
+  Scraping: michalstun... [36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:29.063Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:29.066Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:29.119Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:30.466Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:30.736Z Starting item#1 {"url":"https://www.linkedin.com/in/michalstun"}...
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:35.420Z Scraped item#1 {"url":"https://www.linkedin.com/in/michalstun"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:I3eHy3vLUbr7qhrr7][0m -> 2026-02-01T22:23:35.424Z [32mINFO[39m  [Status message]: success
+✓
+  → Pozice: Head of Data
+
+[104/104] Stanislav Šulc…
+  Scraping: stanislav-%C5%A1ulc-64621499... [36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:44.601Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:44.602Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:44.698Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:45.666Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:45.910Z Starting item#1 {"url":"https://www.linkedin.com/in/stanislav-%C5%A1ulc-64621499/"}...
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:49.666Z Scraped item#1 {"url":"https://www.linkedin.com/in/stanislav-%C5%A1ulc-64621499/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:EJ8IPO4aVsLdNPyXR][0m -> 2026-02-01T22:23:49.670Z [32mINFO[39m  [Status message]: success
+✓
+  → Přeskočeno (firma neshoduje: CSV „ČEZ…“ vs LinkedIn „Samsung Czech Republic & Slova…“)
+
+✅ Hotovo. Doplněno pozic: 31
+   Přeskočeno (firma neshoduje): 14
+-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> 2026-02-01T22:12:55.685Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> 2026-02-01T22:12:56.693Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> 2026-02-01T22:12:56.966Z Starting item#1 {"url":"https://www.linkedin.com/in/ondrej-cech/"}...
+[36m[apify.linkedin-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> 2026-02-01T22:13:01.396Z Scraped item#1 {"url":"https://www.linkedin.com/in/ondrej-cech/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> 2026-02-01T22:13:01.405Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:50AOLE7OQL3G4Jjsz][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[106/113] Petr Šafránek…
+  Scraping: petr-%C5%A1afr%C3%A1nek-95829093... [36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:08.533Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:08.535Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:08.843Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:10.841Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:11.033Z Starting item#1 {"url":"https://www.linkedin.com/in/petr-%C5%A1afr%C3%A1nek-95829093/"}...
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:14.699Z Scraped item#1 {"url":"https://www.linkedin.com/in/petr-%C5%A1afr%C3%A1nek-95829093/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:itR5qEnc25eWum2te][0m -> 2026-02-01T22:13:14.709Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[107/113] Veronika Šamárková…
+  Scraping: veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055... [36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:22.069Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:22.071Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:22.153Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:23.205Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:23.400Z Starting item#1 {"url":"https://www.linkedin.com/in/veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055/"}...
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:26.992Z Scraped item#1 {"url":"https://www.linkedin.com/in/veronika-%C5%A1am%C3%A1rkov%C3%A1-22518055/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> 2026-02-01T22:13:26.997Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:xLPmD1pLcqkLu6cxc][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[108/113] Bohuslav Šantrůček…
+  Scraping: bohuslav-santrucek-413969273... [36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:34.132Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:34.134Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:34.204Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:35.063Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:35.284Z Starting item#1 {"url":"https://www.linkedin.com/in/bohuslav-santrucek-413969273/"}...
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:37.482Z Scraped item#1 {"url":"https://www.linkedin.com/in/bohuslav-santrucek-413969273/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> 2026-02-01T22:13:37.486Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:HPYfTjTjGOiqFDXdG][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[109/113] Jan Ševčík…
+  Scraping: jansevcik... [36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:44.935Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:44.938Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:45.003Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:45.974Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:46.163Z Starting item#1 {"url":"https://www.linkedin.com/in/jansevcik"}...
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:51.329Z Scraped item#1 {"url":"https://www.linkedin.com/in/jansevcik"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> Status: RUNNING, Message: success
+[36m[apify.linkedin-profile-scraper runId:VI6fH8La0XAmrUWzr][0m -> 2026-02-01T22:13:51.335Z [32mINFO[39m  [Status message]: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[110/113] Jan Široký…
+  Scraping: honza-siroky... [36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:13:58.448Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:13:58.451Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:13:58.542Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:13:59.943Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:14:00.275Z Starting item#1 {"url":"https://www.linkedin.com/in/honza-siroky/"}...
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:14:04.885Z Scraped item#1 {"url":"https://www.linkedin.com/in/honza-siroky/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> 2026-02-01T22:14:04.890Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:y5lJIhcOWhOM5mCoi][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[111/113] HANA ŠOURKOVÁ…
+  Scraping: hana-sourkova... [36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:12.170Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:12.173Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:12.217Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:13.696Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:13.906Z Starting item#1 {"url":"https://www.linkedin.com/in/hana-sourkova/"}...
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:18.701Z Scraped item#1 {"url":"https://www.linkedin.com/in/hana-sourkova/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> 2026-02-01T22:14:18.705Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:n1Hbme9Q090bWEfDG][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[112/113] Michal Štúň…
+  Scraping: michalstun... [36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:25.927Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:25.929Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:25.992Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:26.925Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:27.162Z Starting item#1 {"url":"https://www.linkedin.com/in/michalstun"}...
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:31.583Z Scraped item#1 {"url":"https://www.linkedin.com/in/michalstun"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> 2026-02-01T22:14:31.588Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:sxqQ6kgqOJXA4reLq][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+[113/113] Stanislav Šulc…
+  Scraping: stanislav-%C5%A1ulc-64621499... [36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> Status: RUNNING, Message: 
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:38.751Z ACTOR: Pulling container image of build higk64oyjxJdUv4VK from registry.
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:38.753Z ACTOR: Creating container.
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:38.798Z ACTOR: Starting container.
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:40.024Z [32mINFO[39m  System info[90m {"apifyVersion":"3.4.0","apifyClientVersion":"2.13.0","crawleeVersion":"3.13.2","osType":"Linux","nodeVersion":"v20.19.6"}[39m
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:40.212Z Starting item#1 {"url":"https://www.linkedin.com/in/stanislav-%C5%A1ulc-64621499/"}...
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:43.187Z Scraped item#1 {"url":"https://www.linkedin.com/in/stanislav-%C5%A1ulc-64621499/"}. Progress: 1/1
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> 2026-02-01T22:14:43.195Z [32mINFO[39m  [Status message]: success
+[36m[apify.linkedin-profile-scraper runId:UQ1JYOZIjDQHA8NyS][0m -> Status: SUCCEEDED, Message: success
+✓
+  → LinkedIn bez job title (jen headline), přeskakuji
+
+⚠️  Žádná pozice nebyla doplněna (nebo všechny přeskočeny – neshoda firmy).
